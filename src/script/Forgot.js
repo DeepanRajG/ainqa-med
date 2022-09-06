@@ -30,9 +30,7 @@ function App() {
     else if (OTP == null) {
       document.getElementById("error").innerHTML = " please enter pin"
     }
-    else {
-      document.getElementById("error").innerHTML = "wrong otp"
-    }
+   
   }
   return (
     <div className="App">
