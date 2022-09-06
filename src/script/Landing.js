@@ -14,7 +14,7 @@ function App() {
     <div style={{ display: 'block', }}>
 
       <header>
-        <h4 id="head">PARAMEDIC </h4>
+        <h4 id="head">PARAMEDIC PORTAL</h4>
       </header>
 
 
@@ -63,8 +63,6 @@ function App() {
                   <Col  >
                   <button id="thum" ><span class="icon"></span></button>
                   </Col>
-                 
-                  
 
                 </Row>
 
@@ -156,13 +154,12 @@ function App() {
           <form id="ep">
 
 
+<div id="EP">
 
-<div className='phone'></div>
-
-<div className='video'></div>
-
-<div className='smart'></div>
-
+<button id="phone" ><span class="icon"></span></button>
+<button  id="video" ><span class="icon"></span></button>
+<button id="smart" ><span class="icon"></span></button>
+</div>
 </form>
 
           </Col>
