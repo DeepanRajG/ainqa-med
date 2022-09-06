@@ -96,30 +96,22 @@ header {
   margin: 0px;
   margin-left: 35px;
   margin-top: 10px;
-
   font-size: 12px;
   color: #6A7888;
 
 }
 #src{
   margin-top: 10px;
- 
   border: 0PX;
- 
   margin-left: 20px;
-  
   border-radius: 8px;
 font-size: 12px;
-
-
-
 /* White-Bg */
-
 background: #FFFFFF;
 /* Line & border */
-
 border: 1px solid #DFE5EB;
-
+position: relative;
+bottom:7px;
 }
 #thump{
   
@@ -128,16 +120,15 @@ border: 1px solid #DFE5EB;
   border: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
-  
-  padding-right: 55px;
-  
-margin-top: 26px;
+  padding-right: 72px; 
 margin-left: 20px;
 background-color: #2A60BC;
 color: #DFE5EB;
 border-radius: 8px;
 font-size: 12px;
-
+position: absolute;
+top:403px;
+bottom: px;
 }
 #new{
   
@@ -146,9 +137,7 @@ font-size: 12px;
   border: 0px;
   padding-top: 8px;
   padding-bottom: 8px;
-  
   padding-right: 40px;
-  
 margin-top: 26px;
 margin-left: 30px;
 background-color: #2A60BC;
@@ -221,6 +210,7 @@ font-size: 12px;
   border: 0px;
   
 }
+
 #thump span.icon {
   background: url(./img/thump.svg) no-repeat;
   float: left;
@@ -402,75 +392,76 @@ font-size: 12px;
   
 }
 #ep{
-
-
-  
-
-
-
-
-
   margin-top: 20px;
-  
-
-
-
+ 
 }
-.phone{
+#phone{
 
   background-color: white;
-
   border:1px solid rgb(199, 199, 199);
-
   height:60px;
-  margin-left: 30px;
+  margin-left: 45px;
   width:60px;
-  
-
   border-radius: 10px;
-
- 
-
- 
-
+  position:relative;
+  bottom:2px;
+  
 }
-.video{
+#phone span.icon{
+  background: url(./img/phone.svg) no-repeat;
+  float: left;
+  width: 40px;
+  height: 35px;
+  position: relative;
+  bottom:2px;
+  left:6px;
+  top:2px;
+}
+#video{
 
   background-color: white;
-
   border:1px solid rgb(199, 199, 199);
-
   height:60px;
-
   width:60px;
-
   border-radius: 10px;
-
-  margin-left: 140px;
+  margin-left: 100px;
   margin-top: -60px;
 
-  
+position:relative;
+bottom:2px;
+right: 50px;
 
 }
+#video span.icon{
+  background: url(./img/video.svg) no-repeat;
+  float: left;
+  width: 40px;
+  height: 35px;
+  position: relative;
+  bottom:2px;
+  left:6px;
+  top:2px;
+}
 
-.smart{
+#smart{
 
   background-color: white;
-
   border:1px solid rgb(199, 199, 199);
-
   height:60px;
-
   width:60px;
-  margin-left: 250px;
+  margin-left: 265px;
   margin-top: -60px;
-
   border-radius: 10px;
-
-
-
- 
-
- 
-
+position:relative;
+bottom:30px;
+}
+#smart span.icon{
+  background: url(./img/glass.svg) no-repeat;
+  float: left;
+  width: 40px;
+  height: 35px;
+  position: relative;
+  bottom:2px;
+  left:6px;
+  top:9px;
 }
