@@ -27,7 +27,7 @@ function App() {
     return (
         <div className='back'>
             <header id="header0">
-                <Row>
+                <Row id="hd">
                     <Col> <p id="quick"> QUICK REGISTRATION</p></Col>
 
 

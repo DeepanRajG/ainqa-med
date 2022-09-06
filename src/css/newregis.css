@@ -1,15 +1,22 @@
 #header0 {
   
     background-color: #000646;
-    height: 60px;
+    height: 80px;
     color: aliceblue;
     text-align: left;
+  }
+  #hd{
+    padding-top: 10px;
   }
   #quick{
     
     text-align: left;
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 15px;
+    
     font-size: 23px;
+    font-weight: bold;
+    
   }
   #wether{
     width: 40px;

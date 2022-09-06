@@ -32,7 +32,8 @@ function App() {
     <div style={{ display: 'block', }}>
 
 <header id="header0">
-                <Row>
+                <Row id="hd">
+
                     <Col> <p id="quick"> PARAMEDIC PORTAL</p></Col>
 
 
@@ -213,8 +214,13 @@ function App() {
 <button id="phone" ><span class="icon"></span></button>
 <button  id="video" ><span class="icon"></span></button>
 <button id="smart" ><span class="icon"></span></button>
+
+
+
 </div>
+
 </form>
+<p id="ca">vido  call</p>
 
           </Col>
 
