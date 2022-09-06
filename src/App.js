@@ -5,6 +5,7 @@ import Login from "./script/Login";
 import Forgot from "./script/Forgot";
 import Landing from "./script/Landing";
 import NewRegistration from "./script/newregistration"
+import Reset from "./script/Reset"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Route path="/login" element={<Login/>} />
       <Route path="/forgotpassword" element={<Forgot/>}/>
       <Route path="/landing" element={<Landing/>}/>
+      <Route path="/reset" element={<Reset/>}/>
       <Route path="/newRegestration" element={<NewRegistration/>}/>
       <Route path="/passwordreset/:resetToken" element={<Forgot/>}/>
     </Routes>
