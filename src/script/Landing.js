@@ -1,4 +1,4 @@
-import '../css/App copy.css';
+import '../css/landing.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
