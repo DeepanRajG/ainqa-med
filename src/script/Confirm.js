@@ -1,4 +1,4 @@
-import '../css/confirm.css';
+npimport '../css/confirm.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
