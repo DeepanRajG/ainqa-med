@@ -17,7 +17,7 @@ function App() {
 
   //onclick event
   const onclickEvent = () => {
-    let path = 'forgotpassword';
+    let path = '/forgotpassword';
     navigate(path);
   }
 
