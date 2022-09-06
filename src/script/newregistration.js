@@ -1,22 +1,71 @@
-import React from 'react'
-import { Header } from 'semantic-ui-react';
-import'../css/newregistration.css'
+import '../css/newregis.css';
+import React, { useState } from "react";
+
+import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-export const newregistration = () => {
-  return (
-    <div id="back">
-        <header id="hed">
-            <p id="p1">QUICK REGISTRATION</p>
-            <div id="cl">
-            <p id="cel">30°c</p> 
-            <p id="cv">Cloudy</p>
-            <div id="rec">
-           </div>
-            </div>
-             </header>
-             <div id="pt">
+
+
+
+function App() {
+    const navigate = useNavigate();
+    const func = () => {
+        var e = document.getElementById("selectopt");
+        
+        var value = e.value;
+        var text = e.options[e.selectedIndex].text;
+        console.log(text)
+        if(text=="Log Out"){
+            let path = '/login';
+            navigate(path);
+        }
+    }
+
+
+
+    return (
+        <div className='back'>
+            <header id="header0">
+                <Row id="hd">
+                    <Col> <p id="quick"> QUICK REGISTRATION</p></Col>
+
+
+                    <div id="wether"></div>
+                    <p id="p1">30 clody</p>
+                    <div id='line'></div>
+                    <div id="settings"></div>
+                    <div id="join"></div>
+                    <div id="noti"></div>
+                    <form id="para">
+                    <select  id='selectopt'  onChange={func} value='' >
+                  
+                    <option  hidden >Jennifer Jo</option>
+                        <option value='profile'>Profile</option>
+                        <option value='settings' >Settings</option>
+                        <option value='logout'  >Log Out</option>
+                        
+                    </select>
+                    <p id="position">Paramedic</p>
+                    </form>
+                    <div id='line'></div>
+                    <div id="profile" ></div>
+
+                    
+   
+
+
+
+
+
+
+
+                </Row>
+
+
+            </header>
+
+            <div id="pt">
               <p id="text">Patient ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
               <div id="ct">2467890</div>
               </div>
@@ -78,6 +127,8 @@ export const newregistration = () => {
      
  
     </div>
-  )
+        
+
+    );
 }
-export default newregistration;
+export default App;

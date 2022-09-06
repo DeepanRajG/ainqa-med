@@ -6,9 +6,9 @@ import Forgot from "./script/Forgot";
 
 import Landing from "./script/Landing"
 import  Newregistration  from "./script/newregistration";
-import Landing from "./script/Landing";
-import NewRegistration from "./script/newregistration"
+
 import Reset from "./script/Reset"
+import Confirm from './script/Confirm'
 
 
 const App = () => {
@@ -24,7 +24,8 @@ const App = () => {
       <Route path="/Newregistration" element={<Newregistration/>}/>
 
       <Route path="/reset" element={<Reset/>}/>
-      <Route path="/newRegestration" element={<NewRegistration/>}/>
+      <Route path="/confirm" element={<Confirm/>}/>
+      <Route path="/newRegestration" element={<Newregistration/>}/>
 
       <Route path="/passwordreset/:resetToken" element={<Forgot/>}/>
     </Routes>

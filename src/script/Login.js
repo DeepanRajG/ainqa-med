@@ -95,13 +95,13 @@ function App() {
               }}
               isInputSecure={false}
               onChange={handleChange}
-              numInputs={8}
+              numInputs={6}
               isInputNum={true}
               separator={
                 <span
                   style={{
                     margin: "0px 12px 0px 0px",
-                    fontSize:"10px"
+                    fontSize:"px"
                   }}
                 ></span>
               }
