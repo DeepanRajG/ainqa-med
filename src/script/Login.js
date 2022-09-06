@@ -95,7 +95,7 @@ function App() {
               }}
               isInputSecure={false}
               onChange={handleChange}
-              numInputs={6}
+              numInputs={8}
               isInputNum={true}
               separator={
                 <span
@@ -107,8 +107,7 @@ function App() {
               }
             />
           </Col>
-          <p className="forgot" href="" type="button" onClick={onclickEvent}>
-            Forgot PIN?</p>
+         
           <button className="button" onClick={functions} >login</button>
         </div>
 

@@ -31,7 +31,12 @@ function App() {
     OTP = otp;
     setOtpInput(otp);
   };
-
+  const [otp1Input, setOtp1Input] = useState("");
+  const handleChange1 = (otp1) => {
+    console.log(otp1);
+    OTP = otp1;
+    setOtp1Input(otp1);
+  };
 
   const functions = () => {
 
@@ -61,9 +66,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div id="form">
-          <p>RESET PIN</p>
+          <p id="reset">RESET PIN</p>
+          <p id="enp"> Enter New PIN</p>
           
-          <Col className="Otp">
+          <div className="Otp1">
             <OtpInput
               value={otpInput}
               inputStyle=
@@ -71,7 +77,7 @@ function App() {
                
                 border: "0px",
                 borderBottom: "1px solid black",
-                margin:"auto",
+                
 
               }}
               isInputSecure={false}
@@ -82,17 +88,45 @@ function App() {
                 <span
                   style={{
                     margin: "0px 12px 0px 0px",
-                    fontSize:"10px"
+                    fontSize:"px"
                   }}
                 ></span>
               }
             />
-          </Col>
-          <p className="forgot" href="" type="button" onClick={onclickEvent}>
-            Forgot PIN?</p>
-          <button className="button" onClick={functions} >Reset</button>
-        </div>
+          </div>
+          <p id="confirm"> Confirm New PIN</p>
+          <div className="Otp2">
+            <OtpInput
+              value={otp1Input}
+              inputStyle=
+              {{
+               
+                border: "0px",
+                borderBottom: "1px solid black",
+                
 
+              }}
+              isInputSecure={false}
+              onChange={handleChange1}
+              numInputs={6}
+              isInputNum={true}
+              separator={
+                <span
+                  style={{
+                    margin: "0px 12px 0px 0px",
+                    fontSize:"px"
+                  }}
+                ></span>
+              }
+            />
+          </div>
+          
+          
+          
+          <button className="button" onClick={functions} >Reset</button>
+          
+        </div>
+        
       </header>
     </div>
   );

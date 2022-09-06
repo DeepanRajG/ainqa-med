@@ -1,21 +1,75 @@
-import '../css/App copy.css';
+import '../css/landing.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Progressbar from './progressbar';
+import { useNavigate } from "react-router-dom";
 
 
 function App() {
+  const navigate = useNavigate();
+  const func = () => {
+      var e = document.getElementById("selectopt");
+      
+      var value = e.value;
+      var text = e.options[e.selectedIndex].text;
+      console.log(text)
+      if(text=="Log Out"){
+          let path = '/login';
+          navigate(path);
+      }
+  }
+  const newres = () => {
+
+        let path = '/newRegestration';
+        navigate(path);
+    }
 
 
   return (
 
     <div style={{ display: 'block', }}>
 
-      <header>
-        <h4 id="head">PARAMEDIC PORTAL</h4>
-      </header>
+<header id="header0">
+                <Row>
+                    <Col> <p id="quick"> PARAMEDIC PORTAL</p></Col>
+
+
+
+                    <div id="wether"></div>
+                    <p id="p1">30 clody</p>
+                    <div id='line'></div>
+                    <div id="settings"></div>
+                    <div id="join"></div>
+                    <div id="noti"></div>
+                    <form id="para">
+                    <select  id='selectopt'  onChange={func} value='' >
+                  
+                    <option  hidden >Jennifer Jo</option>
+                        <option value='profile'>Profile</option>
+                        <option value='settings' >Settings</option>
+                        <option value='logout'  >Log Out</option>
+                        
+                    </select>
+                    <p id="position">Paramedic</p>
+                    </form>
+                    <div id='line'></div>
+                    <div id="profile" ></div>
+
+                    
+   
+
+
+
+
+
+
+
+                </Row>
+
+
+            </header>
 
 
       <Row id="main" style={{
@@ -74,7 +128,7 @@ function App() {
               <Col>
 
 
-                <button id="new"> <span class="icon"></span>Add new patient</button>
+                <button id="new" onClick={newres}> <span class="icon"></span>Add new patient</button>
 
                 <button id="ret"> <span class="icon"></span>Retina scan</button>
 
@@ -174,5 +228,6 @@ function App() {
 
 
   );
+  
 }
 export default App;
