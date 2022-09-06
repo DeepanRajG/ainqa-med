@@ -1,4 +1,4 @@
-import '../css/App.css';
+import '../css/reset.css';
 import React, { useState } from "react";
 import OtpInput from "react-otp-input";
 import { useNavigate } from "react-router-dom";
@@ -31,7 +31,12 @@ function App() {
     OTP = otp;
     setOtpInput(otp);
   };
-
+  const [otp1Input, setOtp1Input] = useState("");
+  const handleChange1 = (otp1) => {
+    console.log(otp1);
+    OTP = otp1;
+    setOtp1Input(otp1);
+  };
 
   const functions = () => {
 
@@ -61,28 +66,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div id="form">
-          <Col >
-            <p id='hed'>PARAMEDIC LOGIN</p>
-            <select className="dropdown" id="dropdown" defaultValue={"DEFAULT"}
-
-
-            >
-
-
-              <option value="DEFAULT" hidden>Ambulance referral type </option>
-              <option value="partner">Partner referral</option>
-              <option value="External/non partner">External/non partner</option>
-              <option value="internal/own">Internal/own</option>
-            </select>
-
-            <p id='ent'>ENTER PIN</p>
-            <h5 id="error"> </h5>
-
-
-
-
-          </Col>
-          <Col className="Otp">
+          <p id="reset">RESET PIN</p>
+          <p id="enp"> Enter New PIN</p>
+          
+          <div className="Otp1">
             <OtpInput
               value={otpInput}
               inputStyle=
@@ -90,27 +77,56 @@ function App() {
                
                 border: "0px",
                 borderBottom: "1px solid black",
-                margin:"auto",
+                
 
               }}
               isInputSecure={false}
               onChange={handleChange}
-              numInputs={8}
+              numInputs={6}
               isInputNum={true}
               separator={
                 <span
                   style={{
                     margin: "0px 12px 0px 0px",
-                    fontSize:"10px"
+                    fontSize:"px"
                   }}
                 ></span>
               }
             />
-          </Col>
-         
-          <button className="button" onClick={functions} >login</button>
-        </div>
+          </div>
+          <p id="confirm"> Confirm New PIN</p>
+          <div className="Otp2">
+            <OtpInput
+              value={otp1Input}
+              inputStyle=
+              {{
+               
+                border: "0px",
+                borderBottom: "1px solid black",
+                
 
+              }}
+              isInputSecure={false}
+              onChange={handleChange1}
+              numInputs={6}
+              isInputNum={true}
+              separator={
+                <span
+                  style={{
+                    margin: "0px 12px 0px 0px",
+                    fontSize:"px"
+                  }}
+                ></span>
+              }
+            />
+          </div>
+          
+          
+          
+          <button className="button" onClick={functions} >Reset</button>
+          
+        </div>
+        
       </header>
     </div>
   );

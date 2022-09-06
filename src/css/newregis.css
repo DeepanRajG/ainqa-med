@@ -1,0 +1,117 @@
+#header0 {
+  
+    background-color: #000646;
+    height: 80px;
+    color: aliceblue;
+    text-align: left;
+  }
+  #hd{
+    padding-top: 10px;
+  }
+  #quick{
+    
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    
+    font-size: 23px;
+    font-weight: bold;
+    
+  }
+  #wether{
+    width: 40px;
+    height: 40px;
+    background: url("./img/wether.svg") no-repeat;
+    background-size: 30px;
+    margin-top: 10px;
+  
+  }
+  #line{
+    
+    width: 30px;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 5px;
+    background: url("./img/line.svg") no-repeat;
+    background-size: 46px;
+   
+  }
+  #p1{
+    width: 40px;
+    height: 60px;
+    background-size: 30px;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  #settings{
+    
+    width: 40px;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 15px;
+   
+    background: url("./img/setting.svg") no-repeat;
+    background-size: 25px;
+   
+  }
+  #join{
+    
+    width: 40px;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 15px;
+   
+    background: url("./img/join.svg") no-repeat;
+    background-size: 25px;
+   
+  }
+  #noti{
+    
+    width: 40px;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 15px;
+   
+    background: url("./img/notification.svg") no-repeat;
+    background-size: 25px;
+   
+  }
+  #profile{
+    
+    width: 40px;
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 10px;
+   
+    background: url("./img/profile.svg") no-repeat;
+    background-size: 40px;
+   
+  }
+  #para{
+    width: 120px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+   background-color: #000646;
+   border: 0px;
+   color: aliceblue;
+   font-size: small;
+
+  }
+  #paraname{
+    white-space: pre-line;
+  }
+  #selectopt{
+    margin-right: 10px;
+    background-color: #000646;
+    border: 0px;
+    color: aliceblue;
+    font-size: medium;
+
+  }
+  #position{
+    font-size: smaller;
+    margin-left: 6px;
+
+  }

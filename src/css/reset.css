@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  text-align: center;
+  font-size: small;
+}
+
+.App-header {
+  background-color: #01205C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+#form{
+  
+  height: 370px;
+  width: 290px;
+  
+  background-color:#f1f6fc;
+  border-radius: 20px;
+  align-content:center;
+  align-items: center;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+
+    #ent {
+    margin-top: 30px;
+      text-align: center;
+      color:#01205C;
+      font-weight:bold;
+      font-size:15px;
+
+    }  
+    #hed {
+      color: #01205C;
+ font-size:18px;
+ font-weight:bold;
+ text-align:center;
+      }  
+
+
+    #dropdown{
+      width: 240px;
+      height:34px;
+      border-radius: 8px;
+      color: #6A7888;
+      border-color: rgb(199, 199, 199);
+      margin-top: 7%;
+      font-size: small;
+    
+     }
+
+
+ 
+#error{
+  font-size: small;
+  color:rgb(150, 35, 35);
+  margin-left: 90px;
+}
+   
+.forgot{
+color: #000309;
+ font-size:12px;
+ font-weight:bold;
+ text-align:right;
+ margin-top: 10px;
+ margin-right: 20%;
+}
+.forgot:hover{
+ 
+    cursor:pointer;
+   
+}
+.button
+{
+  background-color:#000646;
+  border-color: #01205C;
+
+  height: 35px;
+  width: 40%;
+  border-radius: 10px;
+  margin-left: 75px;
+  color:white;
+  text-align:center;
+  font-size: small;
+  margin-top: 20px;
+  
+  
+  
+}
+.Otp1{
+  margin-top: 20px;
+  display:grid ;
+  place-items: center;
+  background-color:white;
+  
+  border:1px solid rgb(199, 199, 199);
+  border-radius:10px;
+  height:35px;
+  width: 250px;
+ font-size: smaller;
+
+ 
+  
+
+}
+.Otp input:focus{
+  border:none;
+  outline:none;
+
+}
+
+select::-ms-expand {
+     display: none;
+}
+#reset{
+    color: #01205C;
+    font-size:18px;
+    font-weight:bold;
+    text-align:center; 
+}
+
+
+#enp{
+    margin-top: 30px;
+      text-align: center;
+      color:#01205C;
+      font-weight:bold;
+      font-size:15px; 
+}
+#confirm{
+    margin-top: 30px;
+    text-align: center;
+    color:#01205C;
+    font-weight:bold;
+    font-size:15px;
+}
+.Otp2{
+    margin-top: 20px;
+    display:grid ;
+    place-items: center;
+    background-color:white;
+    
+    border:1px solid rgb(199, 199, 199);
+    border-radius:10px;
+    height:35px;
+    width: 250px;
+   font-size: smaller;  
+}
