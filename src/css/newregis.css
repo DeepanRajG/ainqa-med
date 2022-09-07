@@ -197,8 +197,7 @@ margin-top: 62px;
 position: absolute;
 width: 152px;
 height: 16px;
-left: 80px;
-
+left: 79px;
 top: 150px;
 font-family: 'Poppins';
 font-style: normal;
@@ -222,14 +221,17 @@ line-height: 12px;
 text-align: center;
 color: #6A7888;
 }
-#dev{
+#nam{
+position: absolute;
 width: 82px;
 height: 12px;
-margin-left: 35px;
-
+left: 60px;
 font-family: 'Poppins';
 font-style: normal;
+font-weight: 400;
 font-size: 12px;
+line-height: 12px;
+margin: -15px;
 color: #001C3C;
 }
 #add{
@@ -303,18 +305,16 @@ color: #001C3C;
     margin-top: 10px;
     margin-left: 50px;
 }
-#var{
+#years{
     border-radius: 10px;
-    margin-left: -10px;
     padding: 5px;
-    border: 1px solid #264c78;
+    border: 1px solid #6A7888;
     color:#6A7888
-    
 }
 #value{
     border-radius: 10px;
-    margin-left: 25px;
-    padding: 5px;   
+    padding: 5px;
+    margin-left: 18px;   
     border: 1px solid #6A7888;
     color:#6A7888
 }
@@ -395,31 +395,39 @@ padding-top: 15px;
     text-align:center;
     font-size: small;
     margin-top: 20px;
-
-    margin-left: 230px;
+    margin-left: 330px;
 }
 #finger1{
   background: url(./img/finger1.svg)no-repeat;
-  width: 146px;
-height: 90px;
-margin-left: 850px;
-margin-top: -200px;
 
+  width: 146px;
+
+height: 90px;
+
+margin-left: 940px;
+
+margin-top: -200px;
 }
 #retina{
+
   background: url(./img/retina.svg)no-repeat;
+
   width: 146px;
+
   height: 90px;
-  margin-left: 930px;
+
+  margin-left: 1020px;
+
 margin-top: -90px;
+
 }
 #box{
   background-color: #D9D9D9;
 height:100px;
 width: 110px;
 border-radius: 8px;
-margin-right: 190px;
-margin-top: -650px;
+margin-right: 200px;
+margin-top: -600px;
 flood-color: right;
 float: right;
 }
@@ -434,7 +442,7 @@ float: right;
   width: 110px;
   border-radius: 4px;
   border-style: dashed;
-  border-color: #2a60bc;
+  border-color: #2A60BC;
   background-color: #F1F6FC;
   float: right;
   margin-top: 72px;
@@ -446,7 +454,7 @@ float: right;
   border-radius: 8px;
   margin-right: 130px;
   float: right;
-  margin-top: -500px;
+  margin-top: -440px;
   margin-left: 40px;
   
 
@@ -455,8 +463,8 @@ float: right;
   width: 220px;
   border-radius: 4px;
   border-style: dashed;
+  border-color: #2A60BC;
   background-color: #F1F6FC;
-  border-color: #2a60bc;
   float: right;
   margin-top: 90px;
   text-align: center;
@@ -477,7 +485,7 @@ border-radius: 10px;
 color:#ffff;
 text-align:center;
  font-size: small;
- margin-top: -350px;
+ margin-top: -300px;
  margin-left: 50px;
  float: right;
  margin-right: 135px;
@@ -490,8 +498,8 @@ text-align:center;
   height:100px;
   width:80px;
 border-radius: 10px;
- margin-left: 870px;
-margin-top: -650px;
+ margin-left: 975px;
+margin-top: -600px;
 float: right;
 }
 #location{
@@ -499,9 +507,23 @@ float: right;
   height:70px;
   width:68px;
   border-radius:10px;
-  margin-left:890px;
-  margin-top:-490px;
+  margin-left:1000px;
+  margin-top:-430px;
   
   
 
+}
+#qvip{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Poppins;
+  margin-top: -90px;
+  margin-right: 250px;
+  
+  float: right;
+}
+#toggle{
+  float: right;
+  margin-top: -90px;
+  margin-right: 160px;
 }

@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Toggle from 'react-styled-toggle';
+
 
 
 
@@ -72,11 +74,11 @@ function App() {
               <div id="ot"></div>
               <p id="tect">MRN ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
               <div id="dv">2435392</div>
-              <p id="dev">Patient Name</p>
+              <p id="nam">Patient Name</p>
               <input type="text" id="add" placeholder="Vijay Kumar"></input>
               <p id="ag">Age</p>
               <div id="age">
-      <select id="var">
+      <select id="value">
         <option value=" years">42years</option>
         <option value="years">43years</option>
         <option value="years">44years</option>
@@ -136,11 +138,16 @@ function App() {
   <div id="location"></div></Row>
   <div id="finger1"></div>
         <div id="retina"></div>
+      
+  <div id="toggle"><Toggle id="vipbt"backgroundColorChecked='#001c3c;' backgroundColorUnchecked='grey'
+     sliderHeight={15} sliderWidth={15}  width={50} height={24}>
+      
+    
+    </Toggle></div>
      
- 
-    </div>
+    <p id="qvip">VIP</p>    
         
-
+</div>
     );
 }
 export default App;
