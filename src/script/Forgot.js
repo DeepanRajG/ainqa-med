@@ -1,6 +1,42 @@
 import '../css/forget.css';
  
 function App() {
+<<<<<<< HEAD
+  const [otpInput, setOtpInput] = useState("");
+  const handleChange = (otp) => {
+    console.log(otp);
+    OTP = otp;
+    setOtpInput(otp);
+  };
+
+
+  const functions = () => {
+
+    if (OTP === 123456) {
+      var e = document.getElementById("dropdown");
+      var value = e.value;
+      var text = e.options[e.selectedIndex].text;
+      // let type=document.getElementsById("dropdown").value
+      let json = {
+        "otp": " ",
+        "_key": " "
+      }
+      json.type = text;
+      json._key = value;
+      json.otp = OTP;
+      console.table(json);
+    }
+    else if (OTP == null) {
+      document.getElementById("error").innerHTML = " please enter pin"
+    }
+    else {
+      document.getElementById("error").innerHTML = "&emsp;&ensp; Wrong pin"
+      setOtpInput("");
+    }
+   
+  }
+=======
+>>>>>>> 2992b80373f98d950ca05fc98e65b767292bf480
   return (
     <div className="App">
       <header className="App-header">

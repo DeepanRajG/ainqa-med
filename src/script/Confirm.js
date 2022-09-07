@@ -23,7 +23,7 @@ function App(){
 return(
     <div style={{ display: 'block', }}>
       <header id="header0">
-                <Row>
+                <Row id="hd">
                     <Col> <p id="quick"> QUICK REGISTRATION  </p>
                     <p id="confr"> CONFIRMATION </p></Col>
                     <div id="wether"></div>
@@ -70,13 +70,13 @@ return(
       <div id="prof"></div>
       <div id="ID"></div>
       <div className="ID"></div>
-      <div id="gen"></div>
-      <Toggle backgroundColorChecked='#001c3c;' backgroundColorUnchecked='grey'
+      <div id="genC"></div>
+      <div className='tog '> <Toggle backgroundColorChecked='#01205C;' backgroundColorUnchecked='#D9D9D9'
        sliderHeight={15} sliderWidth={15}  width={45} height={25} marginLeft={30}>
         
       
       </Toggle>
-      
+      </div>
       
       </Col>
       <Col id="right" >
