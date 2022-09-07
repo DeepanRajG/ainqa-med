@@ -1,0 +1,92 @@
+
+#fform{
+  
+    height: 420px;
+    width: 360px;
+    size-adjust:50%;
+    background-color:#f1f6fc;
+    border-radius: 20px;
+    align-content:center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction :row ;
+    
+    
+    }
+    h4 {
+      font-size: 16px;
+      text-align: center;
+      color:#01205C;
+     margin-top: 5%;
+      
+      }
+    
+
+#fbutton1
+{
+  background-color:#0d2555;
+  border-color: #01205C;
+  padding: 10px 10px;
+  height: 35px;
+  width: 40%;
+  border-radius: 10px;
+  color:white;
+  text-align:center;
+  margin-top:5%;
+  
+  
+}
+#fbutton2
+{
+  background-color: white;
+  border-color: #01205C;
+  padding: 10px 10px;
+  height: 35px;
+  width: 40%;
+  border-radius: 10px;
+  color:grey ;
+  text-align:center;
+  margin-top:5%;
+  
+  
+}
+#fbutton3
+{
+  background-color:#0d2555;
+  border-color: #01205C;
+  padding: 10px 10px;
+  height: 35px;
+  width: 40%;
+  border-radius: 10px;
+  color:white;
+  text-align:center;
+  margin-top:5%;
+  
+  
+}
+#fh6{
+  color: #01205C;
+  margin-top: 5px;
+
+}
+#fh7{
+    color: grey;
+    font-size: 10px;
+    
+}
+#fh8{
+  color:grey ;
+  font-size: 10px;
+}
+#ftext1{
+  border-radius: 10px;
+  width:50%;
+  height:35px;
+}
+
+    
+    
+   
