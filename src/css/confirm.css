@@ -24,7 +24,7 @@
  letter-spacing: 0;
  line-height: 12px;
  min-width:133px;
- margin-top:28%;
+ margin-top:8%;
  margin-left:28%;
  white-space: nowrap;
 }
@@ -36,7 +36,7 @@
  line-height: 12px;
  min-width:133px;
  margin-top:-10px;
- margin-left:50%;
+ margin-left:52%;
  white-space: nowrap;
 }
 #id{
@@ -49,6 +49,61 @@
     margin-top:5%;
     margin-left:28%;
     white-space: nowrap; 
+}
+#mrn{
+    color:#001c3c;
+    font-size:18px;
+    font-weight:500;
+    letter-spacing: 0;
+    line-height: 12px;
+    min-width:133px;
+    margin-top:5%;
+    margin-left:28%;
+    white-space: nowrap;
+}
+#gender{
+    color:#001c3c;
+    font-size:18px;
+    font-weight:500;
+    letter-spacing: 0;
+    line-height: 12px;
+    min-width:133px;
+    margin-top:5%;
+    margin-left:28%;
+    white-space: nowrap;
+}
+#no{
+color:#6A7888;
+font-size:18px;
+font-weight:500;
+ letter-spacing: 0;
+ line-height: 12px;
+ min-width:133px;
+ margin-top:-10px;
+ margin-left:52%;
+ white-space: nowrap;
+}
+#mri{
+ color:#6A7888;
+font-size:18px;
+font-weight:500;
+ letter-spacing: 0;
+ line-height: 12px;
+ min-width:133px;
+ margin-top:-10px;
+ margin-left:52%;
+ white-space: nowrap;
+}
+#gend{
+color:#6A7888;
+font-size:18px;
+font-weight:500;
+ letter-spacing: 0;
+ line-height: 12px;
+ min-width:133px;
+ margin-top:-10px;
+ margin-left:52%;
+ white-space: nowrap;
 }
 #vip{
     font-size: 16px;
@@ -65,8 +120,8 @@
     height:40px;
     width:120px;
     border-radius: 8px;
-    margin-left:50% ;
-    margin-top: 7%;
+    margin-left:45% ;
+    margin-top:10px;
     border:none;
     color:#ffffff;
     font-weight: 600;
@@ -90,21 +145,21 @@
     color:#001C3c;
     font-size:20px;
     font-weight:400;
-    margin-left:44%;
+    margin-left:45%;
     margin-top:-31px;
    }
    #mon{
     color:#001C3c;
     font-size:23px;
     font-weight:700;
-    margin-left:49%;
+    margin-left:50%;
     margin-top:-31px;
    }
    #months{
     color:#001C3c;
     font-size:20px;
     font-weight:400;
-    margin-left:52%;
+    margin-left:53%;
     margin-top:-32px;
    }
 #weight{
@@ -166,7 +221,7 @@
     background-color:#D9D9D9;
     border:1px none;
     height:23px;
-    width:3px;
+    width:2px;
     margin-left:57% ;
     margin-top: -24px;
 }
@@ -205,8 +260,8 @@
 }
 #view{
     background-color: #2A60BC;
-    position:fixed;
-    top:44%;
+    position:absolute;
+    top:51%;
     right:12%;
     height:25px;
     width:72px;
@@ -216,3 +271,83 @@
     font-weight: 300;
     color:#ffffff;
 }
+#male{
+width: 110px;
+height:100px;
+background-color:#D9D9D9;
+margin-left:24%;
+margin-top:5%;
+border-radius: 4px;
+
+}
+#mal{
+    background:url('./img/male.svg')no-repeat;
+    position: center;
+    align-content: center;
+    height:73px;
+    width:91px;
+    margin-left:10px;
+    margin-top:20%;
+}
+.finger{
+    background:url('./img/finger.svg')no-repeat;
+    height:160px;
+    width:115px;
+    margin-left:35%;
+    margin-top:-50px; 
+}
+.eye{
+    background:url('./img/eye.svg')no-repeat;
+    height:150px;
+    width:220px;
+    margin-left:60%;
+    margin-top:-160px; 
+   
+}
+#ok{
+    background: url('./img/ok.svg') no-repeat;
+    width: 100px;
+    height:100px;
+    margin-left:70%;
+    margin-top:65%;
+}
+#yes{
+    background: url('./img/yes.svg') no-repeat;
+    width: 100px;
+    height:100px;
+    margin-left:71%;
+    margin-top:-145px;
+}
+  #prof{
+    background: url('./img/prof.svg') no-repeat;
+height:50px;
+width:50px;
+margin-top:-200px;
+margin-left:23%;
+ }
+ #ID{
+background: url('./img/id.svg') no-repeat;
+height:50px;
+width:50px;
+margin-top:-8px;
+margin-left:23%;
+ }
+ .ID{
+    background: url('./img/id.svg') no-repeat;
+    height:50px;
+    width:50px;
+    margin-top:-4px;
+    margin-left:23%;
+     }
+     #gen{
+        background: url('./img/gender.svg') no-repeat;
+        height:50px;
+    width:50px;
+    margin-top:-4px;
+    margin-left:23%;
+
+     }
+     #conf{
+        margin-left: 30%;
+
+     }

@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import Progressbar from './progressbar';
 import { useNavigate } from "react-router-dom";
 
-
 function App() {
   const navigate = useNavigate();
   const func = () => {
