@@ -57,15 +57,6 @@ function App() {
                     <div id='line'></div>
                     <div id="profile" ></div>
 
-                    
-   
-
-
-
-
-
-
-
                 </Row>
 
 
