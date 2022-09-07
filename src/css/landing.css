@@ -69,10 +69,14 @@ header {
 }
 
 #stock {
+  color: #001C3C;
   margin: 0px;
   margin-top: 10px;
-  margin-left: 80px;
+  margin-left: 100px;
   font-weight: bold;
+  position: relative;
+  bottom:6px;
+ 
 }
 
 #progtext {
@@ -127,7 +131,7 @@ color: #DFE5EB;
 border-radius: 8px;
 font-size: 12px;
 position: absolute;
-top:403px;
+top:423px;
 bottom: px;
 }
 #new{
@@ -328,44 +332,49 @@ font-size: 12px;
  
 }
 #burns{
- font-size: 12px;
+ font-size: 14px;
  color: #001C3C;
 }
 #heart{
-  font-size: 12px;
+  font-size: 14px;
   color: #001C3C;
  }
  #acc{
-  font-size: 12px;
+  font-size: 14px;
   color: #001C3C;
  }
  #frac{
-  font-size: 12px;
+  font-size: 14px;
   color: #001C3C;
  }
  #trau{
-  font-size: 12px;
+  font-size: 14px;
   color: #001C3C;
  }
  #elect{
-  font-size: 12px;
+  font-size: 14px;
   color: #001C3C;
  }
  #stock1 {
+  color: #001C3C;
   margin: 0px;
   margin-top: 200px;
-  margin-left: 30px;
+  margin-left: 50px;
   font-weight: bold;
+  position: relative;
+  bottom: 6px;
 }
 #stock2 {
   margin: 0px;
-  
-  margin-left: 30px;
+  color: #001C3C;
+  margin-left: 130px;
   margin-top: 30px;
   font-weight: bold;
+  position: relative;
+  bottom: 6px;
 }
 .epas{
- 
+
   height: 100px;
   width: fit-content;
   margin-left: 110px;
@@ -386,11 +395,11 @@ font-size: 12px;
 }
 #ep{
   margin-top: 20px;
- 
+
 }
 #phone{
 
-  background-color: white;
+  background-color:#DEE5EC;
   border:1px solid rgb(199, 199, 199);
   height:60px;
   margin-left: 45px;
@@ -412,14 +421,13 @@ font-size: 12px;
 }
 #video{
 
-  background-color: white;
+  background-color:#DEE5EC;
   border:1px solid rgb(199, 199, 199);
   height:60px;
   width:60px;
   border-radius: 10px;
   margin-left: 100px;
   margin-top: -60px;
-
 position:relative;
 bottom:2px;
 right: 50px;
@@ -438,15 +446,15 @@ right: 50px;
 
 #smart{
 
-  background-color: white;
+  background-color: #DEE5EC;
   border:1px solid rgb(199, 199, 199);
-  height:60px;
+  height:62px;
   width:60px;
   margin-left: 265px;
   margin-top: -60px;
   border-radius: 10px;
 position:relative;
-bottom:30px;
+bottom:31px;
 }
 #smart span.icon{
   background: url(./img/glass.svg) no-repeat;
@@ -458,9 +466,25 @@ bottom:30px;
   left:6px;
   top:9px;
 }
-#ca{
-  width: 100px;
-  height: 20px;
-  font-size: 10px;
-  margin: 0px;
+#EP{
+position: relative;
+bottom:10px;
+}
+#ph{
+
+  position: relative;
+  bottom:30px;
+  left:20px;
+}
+#vi{
+
+  position: relative;
+  bottom:70px;
+  left:140px;
+}
+#sm{
+
+  position: relative;
+  bottom:110px;
+  left:250px;
 }
