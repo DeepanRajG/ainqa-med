@@ -120,6 +120,19 @@ function App() {
         <button className="button1">Edit</button>
         <button className="button2" >Save</button>
         <button className="button3" >Submit</button>
+        <div id="box">
+          <Col id="box2"><p id="app">+ Add Patient Photo</p></Col>
+         </div>
+         <div id="boxx">
+          <Col id="box3"><p id="loc">+ Add More Images</p></Col>
+         </div>
+         <button className="button4" >Add Location</button>
+         
+<Row> 
+ <div id="human"></div></Row>
+ <Row>
+  <div id="location"></div></Row>
+ 
         
 
 

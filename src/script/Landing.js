@@ -204,13 +204,16 @@ function App() {
 <button id="phone" ><span class="icon"></span></button>
 <button  id="video" ><span class="icon"></span></button>
 <button id="smart" ><span class="icon"></span></button>
+<p id="ph">Phone Assist</p>
+<p id="vi">video Assist</p>
+<p id="sm">SmartAssist</p>
 
 
 
 </div>
 
 </form>
-<p id="ca">vido  call</p>
+
 
           </Col>
 

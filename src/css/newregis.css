@@ -1,6 +1,6 @@
 #header0 {
   
-    background-color: #000646;
+    background-color: #01205C;
     height: 80px;
     color: aliceblue;
     text-align: left;
@@ -93,7 +93,7 @@
     height: 30px;
     margin-right: 10px;
     margin-top: 10px;
-   background-color: #000646;
+   background-color: #01205C;
    border: 0px;
    color: aliceblue;
    font-size: small;
@@ -104,7 +104,7 @@
   }
   #selectopt{
     margin-right: 10px;
-    background-color: #000646;
+    background-color: #01205C;
     border: 0px;
     color: aliceblue;
     font-size: medium;
@@ -197,8 +197,8 @@ margin-top: 62px;
 position: absolute;
 width: 152px;
 height: 16px;
-left: 77px;
-top: 130px;
+left: 79px;
+top: 150px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -212,7 +212,7 @@ position: absolute;
 width: 93px;
 height: 16px;
 left: 220px;
-top: 130px;
+top: 150px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -395,5 +395,95 @@ padding-top: 15px;
     text-align:center;
     font-size: small;
     margin-top: 20px;
-    margin-left: 230px;
+    margin-left: 260px;
+}
+#box{
+  background-color: #D9D9D9;
+height:100px;
+width: 110px;
+border-radius: 8px;
+margin-right: 200px;
+margin-top: -600px;
+flood-color: right;
+float: right;
+}
+#app{
+  text-align: center;
+  font-size: 10.7px;
+  color: #2A60BC;
+  margin-top: 5px;
+}
+#box2{
+  height: 29px;
+  width: 110px;
+  border-radius: 4px;
+  border-style: dashed;
+  background-color: #F1F6FC;
+  float: right;
+  margin-top: 72px;
+  text-align: center;
+}
+#boxx{  background-color: #D9D9D9;
+  height:120px;
+  width: 220px;
+  border-radius: 8px;
+  margin-right: 130px;
+  float: right;
+  margin-top: -440px;
+  margin-left: 40px;
+  
+
+}
+#box3{ height: 30px;
+  width: 220px;
+  border-radius: 4px;
+  border-style: dashed;
+  background-color: #F1F6FC;
+  float: right;
+  margin-top: 90px;
+  text-align: center;
+
+}
+#loc{
+  text-align: center;
+  font-size: 12px;
+  color: #2A60BC;
+  margin-top: 5px;
+}
+.button4{
+  background-color:#2a60bc;
+  border:1px solid #6A7888;
+  height: 37px;
+   width: 210px;
+border-radius: 10px;
+color:#ffff;
+text-align:center;
+ font-size: small;
+ margin-top: -300px;
+ margin-left: 50px;
+ float: right;
+ margin-right: 135px;
+
+}
+
+
+#human{
+  background: url(./img/human.svg) no-repeat;
+  height:100px;
+  width:80px;
+border-radius: 10px;
+ margin-left: 975px;
+margin-top: -600px;
+float: right;
+}
+#location{
+  background: url(./img/loc.svg) no-repeat;
+  height:70px;
+  width:68px;
+  border-radius:10px;
+  margin-left:1000px;
+  margin-top:-430px;
+  
+  
+
 }
