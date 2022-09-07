@@ -4,8 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import React, { useState } from 'react';
-import Switch from "./ToggleSwitch.js";
-
+import Toggle from 'react-styled-toggle';
 
 function App(){
   const navigate = useNavigate();
@@ -25,7 +24,8 @@ return(
     <div style={{ display: 'block', }}>
       <header id="header0">
                 <Row>
-                    <Col> <p id="quick"> QUICK REGISTRATION CONFIRMATION </p></Col>
+                    <Col> <p id="quick"> QUICK REGISTRATION  </p>
+                    <p id="confr"> CONFIRMATION </p></Col>
                     <div id="wether"></div>
                     <p id="p1">30 clody</p>
                     <div id='line'></div>
@@ -65,18 +65,23 @@ return(
       <div id="mri">6583528940</div> 
       <div id="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
       <div id="gend">Male</div> 
-      <div id="vip">VIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+      <div id="vip">VIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
     
       <div id="prof"></div>
       <div id="ID"></div>
       <div className="ID"></div>
       <div id="gen"></div>
+      <Toggle backgroundColorChecked='#001c3c;' backgroundColorUnchecked='grey'
+       sliderHeight={15} sliderWidth={15}  width={45} height={25} marginLeft={30}>
+        
+      
+      </Toggle>
       
       
       </Col>
       <Col id="right" >
       <div id="yea">43</div>
-      <div id="years">yrs</div>
+      <div id="Years">yrs</div>
       <div id="mon">4</div>
       <div id="months">months</div>
       <div className="rectangle-17"></div>
@@ -88,9 +93,9 @@ return(
       <div className="rect"></div>
       <div id="hei">178</div>
       <div id="cm">Cm</div>
-      <div className="rec"></div>
+      <div className="recta"></div>
       <div id="blo">B  +ve</div>
-        <div id="nam">Patient History</div>
+        <div id="his">Patient History</div>
       <button id="view">View</button>
       <form id="finger">
          <div className="finger"> 
