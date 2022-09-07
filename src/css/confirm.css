@@ -7,10 +7,10 @@
 *:focus {
   outline: none;
 }
-#left {
+#left{
     background-color: rgb(255, 255, 255);
   }
-  #right {
+#right {
     background-color: rgb(255, 255, 255);
   }
 

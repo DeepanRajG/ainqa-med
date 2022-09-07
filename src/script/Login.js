@@ -46,7 +46,7 @@ function App() {
       json.type = text;
       json._key = value;
       json.pin = OTP;
-      console.table(json);
+      console.log(json);
     }
     else if (OTP == null) {
       document.getElementById("errorr").innerHTML = "Please enter pin"
