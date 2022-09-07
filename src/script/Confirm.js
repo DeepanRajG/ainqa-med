@@ -1,10 +1,15 @@
-npimport '../css/confirm.css';
+import '../css/confirm.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { useNavigate } from "react-router-dom";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import React, { useState } from 'react';
+import Switch from "./ToggleSwitch.js";
+
+
 function App(){
   const navigate = useNavigate();
+  const [value, setValue] = useState(false);
     const func = () => {
         var e = document.getElementById("selectopt");
         
@@ -20,9 +25,7 @@ return(
     <div style={{ display: 'block', }}>
       <header id="header0">
                 <Row>
-                    <Col> <p id="quick"> QUICK REGISTRATION</p></Col>
-
-
+                    <Col> <p id="quick"> QUICK REGISTRATION CONFIRMATION </p></Col>
                     <div id="wether"></div>
                     <p id="p1">30 clody</p>
                     <div id='line'></div>
@@ -42,36 +45,33 @@ return(
                     </form>
                     <div id='line'></div>
                     <div id="profile" ></div>
-
-                    
-   
-
-
-
-
-
-
-
                 </Row>
-
-
             </header>
+            
      <Row id="main" style={{
         paddingTop: '30px',
         paddingBottom: '30px',
-
-
       }}>
         <Col id="left">
+          <form id="male"> 
+           <div id="mal"></div>
+          </form>
       <div id="patient">Patient Name&nbsp;&nbsp;&nbsp;:</div>
       <div id="vijay">Vijay Kumar</div>
+     
       <div id="id">Patient Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-      <div id="vijay">4427844</div> 
-      <div id="id">MRN ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-      <div id="vijay">6583528940</div> 
-      <div id="id">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
-      <div id="vijay">Male</div> 
+      <div id="no">4427844</div> 
+      <div id="mrn">MRN ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
+      <div id="mri">6583528940</div> 
+      <div id="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</div>
+      <div id="gend">Male</div> 
       <div id="vip">VIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    
+      <div id="prof"></div>
+      <div id="ID"></div>
+      <div className="ID"></div>
+      <div id="gen"></div>
+      
       
       </Col>
       <Col id="right" >
@@ -92,6 +92,15 @@ return(
       <div id="blo">B  +ve</div>
         <div id="nam">Patient History</div>
       <button id="view">View</button>
+      <form id="finger">
+         <div className="finger"> 
+         <div id="ok"> </div>
+        </div>
+        </form>
+    
+      <form id="eye"><div className="eye"> </div>
+      <div id="yes"></div>
+      </form>
       
       </Col>
       </Row>
