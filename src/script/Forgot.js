@@ -1,7 +1,9 @@
 import '../css/forget.css';
+import React, { useState ,useEffect  } from "react";
  
 function App() {
-<<<<<<< HEAD
+  let OTP;
+
   const [otpInput, setOtpInput] = useState("");
   const handleChange = (otp) => {
     console.log(otp);
@@ -35,8 +37,7 @@ function App() {
     }
    
   }
-=======
->>>>>>> 2992b80373f98d950ca05fc98e65b767292bf480
+
   return (
     <div className="App">
       <header className="App-header">

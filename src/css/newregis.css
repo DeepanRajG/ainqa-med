@@ -404,7 +404,7 @@ padding-top: 15px;
 
 height: 90px;
 
-margin-left: 940px;
+margin-left: 1080px;
 
 margin-top: -200px;
 }
@@ -416,7 +416,7 @@ margin-top: -200px;
 
   height: 90px;
 
-  margin-left: 1020px;
+  margin-left: 1170px;
 
 margin-top: -90px;
 
@@ -427,7 +427,7 @@ height:100px;
 width: 110px;
 border-radius: 8px;
 margin-right: 200px;
-margin-top: -600px;
+margin-top: -550px;
 flood-color: right;
 float: right;
 }
@@ -445,7 +445,7 @@ float: right;
   border-color: #2A60BC;
   background-color: #F1F6FC;
   float: right;
-  margin-top: 72px;
+ 
   text-align: center;
 }
 #boxx{  background-color: #D9D9D9;
@@ -466,7 +466,8 @@ float: right;
   border-color: #2A60BC;
   background-color: #F1F6FC;
   float: right;
-  margin-top: 90px;
+  margin-top: 20px;
+ 
   text-align: center;
 
 }
@@ -495,22 +496,20 @@ text-align:center;
 
 #human{
   background: url(./img/human.svg) no-repeat;
-  height:100px;
-  width:80px;
-border-radius: 10px;
- margin-left: 975px;
-margin-top: -600px;
-float: right;
+  height: 70px;
+  width:75px;
+  margin-left: 10px;
+  
+
+
 }
 #location{
   background: url(./img/loc.svg) no-repeat;
   height:70px;
   width:68px;
   border-radius:10px;
-  margin-left:1000px;
-  margin-top:-430px;
-  
-  
+  margin: auto;
+
 
 }
 #qvip{

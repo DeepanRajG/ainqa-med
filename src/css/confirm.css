@@ -37,10 +37,12 @@
     font-weight: bold;
     
   }
-  .tog{
-    position: absolute;
-    left:320px;
-  }
+  
+   
+    .tog{
+      margin-left: 50px;
+    }
+  
   #wether{
     width: 40px;
     height: 40px;

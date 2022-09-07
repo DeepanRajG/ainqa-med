@@ -127,7 +127,7 @@ function App() {
               }
             />
           </Col>
-          <p className="forgotlog">
+          <p className="forgotlog" onClick={onclickEvent}>
               Forgot PIN?</p>
           <button className="buttonlog" onClick={functions} >login</button>
         </div>

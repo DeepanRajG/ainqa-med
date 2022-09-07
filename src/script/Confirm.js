@@ -71,8 +71,9 @@ return(
       <div id="ID"></div>
       <div className="ID"></div>
       <div id="genC"></div>
-      <div className='tog '> <Toggle backgroundColorChecked='#01205C;' backgroundColorUnchecked='#D9D9D9'
-       sliderHeight={15} sliderWidth={15}  width={45} height={25} marginLeft={30}>
+      <div className='tog '> 
+      <Toggle backgroundColorChecked='#01205C;' backgroundColorUnchecked='#D9D9D9'
+       sliderHeight={15} sliderWidth={15}  width={50} height={25} marginLeft={30}>
         
       
       </Toggle>

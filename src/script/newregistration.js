@@ -23,6 +23,11 @@ function App() {
             navigate(path);
         }
     }
+    const confir = () => {
+
+      let path = '/Confirm';
+      navigate(path);
+  }
 
 
 
@@ -121,25 +126,27 @@ function App() {
         </Col>
         <button className="button1">Edit</button>
         <button className="button2" >Save</button>
-        <button className="button3" >Submit</button>
+        <button className="button3"  onClick={confir}>Submit</button>
 
        
         <div id="box">
+        
+ <div id="human"></div>
           <Col id="box2"><p id="app">+ Add Patient Photo</p></Col>
          </div>
          <div id="boxx">
+         <div id="location"></div>
           <Col id="box3"><p id="loc">+ Add More Images</p></Col>
          </div>
          <button className="button4" >Add Location</button>
          
-<Row> 
- <div id="human"></div></Row>
- <Row>
-  <div id="location"></div></Row>
+
+ 
+ 
   <div id="finger1"></div>
         <div id="retina"></div>
       
-  <div id="toggle"><Toggle id="vipbt"backgroundColorChecked='#001c3c;' backgroundColorUnchecked='grey'
+  <div id="toggle"><Toggle backgroundColorChecked='#001c3c;' backgroundColorUnchecked='grey'
      sliderHeight={15} sliderWidth={15}  width={50} height={24}>
       
     
