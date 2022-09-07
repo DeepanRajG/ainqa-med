@@ -67,36 +67,38 @@
       color: #6A7888;
       border-color: rgb(199, 199, 199);
       margin-top: 7%;
+      margin-left: 5px;
       font-size: small;
     
      }
 
 
  
-#error{
+#errorr{
   font-size: small;
   color:rgb(150, 35, 35);
-  margin-left: 90px;
+  margin-left: 70px;
 }
+
    
-.forgot{
+.forgotlog{
 color: #000309;
  font-size:12px;
  font-weight:bold;
  text-align:right;
  margin-top: 10px;
- margin-right: 20%;
+ margin-right:30px;
+
 }
-.forgot:hover{
+.forgotlog:hover{
  
     cursor:pointer;
    
 }
-.button
+.buttonlog
 {
   background-color:#000646;
   border-color: #01205C;
-
   height: 35px;
   width: 40%;
   border-radius: 10px;
@@ -109,7 +111,7 @@ color: #000309;
   
   
 }
-.Otp{
+.Otplog{
   margin-top: 20px;
   display:grid ;
   place-items: center;
@@ -117,7 +119,7 @@ color: #000309;
   
   border:1px solid rgb(199, 199, 199);
   border-radius:10px;
-  height:35px;
+  height:40px;
   width:200px;
   margin-left: 25px;
   padding: auto;
@@ -125,7 +127,7 @@ color: #000309;
   
 
 }
-.Otp input:focus{
+.Otplog input:focus{
   border:none;
   outline:none;
 

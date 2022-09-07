@@ -10,7 +10,7 @@ let OTP;
 
 function App() {
   let json = {
-    "otp": " ",
+    "pin": " ",
     "_key": " "
   }
   const navigate = useNavigate();
@@ -37,7 +37,7 @@ function App() {
 
     if (OTP == 123456) {
       var e = document.getElementById("dropdown");
-      document.getElementById("error").innerHTML = ""
+      document.getElementById("errorr").innerHTML = ""
       var value = e.value;
       var text = e.options[e.selectedIndex].text;
       let path = 'landing';
@@ -45,15 +45,15 @@ function App() {
 
       json.type = text;
       json._key = value;
-      json.otp = OTP;
+      json.pin = OTP;
       console.table(json);
     }
     else if (OTP == null) {
-      document.getElementById("error").innerHTML = " please enter pin"
+      document.getElementById("errorr").innerHTML = "Please enter pin"
       setOtpInput("");
     }
     else {
-      document.getElementById("error").innerHTML = "wrong pin"
+      document.getElementById("errorr").innerHTML = "&emsp;&ensp; Wrong pin"
       setOtpInput("");
     }
   }
@@ -76,14 +76,14 @@ function App() {
             </select>
 
             <p id='ent'>ENTER PIN</p>
-            <h5 id="error"> </h5>
+            <h5 id="errorr"> </h5>
 
 
 
 
           </Col>
-          <Col className="Otp">
-            <OtpInput
+          <Col className="Otplog">
+            <OtpInput id="otpinput"
               value={otpInput}
               inputStyle=
               {{
@@ -91,7 +91,9 @@ function App() {
                 border: "0px",
                 borderBottom: "1px solid black",
                 margin:"auto",
-
+                position:"relative",
+                bottom: "0px",
+                top:"0px",
               }}
               isInputSecure={false}
               onChange={handleChange}
@@ -107,8 +109,9 @@ function App() {
               }
             />
           </Col>
-         
-          <button className="button" onClick={functions} >login</button>
+          <p className="forgotlog">
+              Forgot PIN?</p>
+          <button className="buttonlog" onClick={functions} >login</button>
         </div>
 
       </header>

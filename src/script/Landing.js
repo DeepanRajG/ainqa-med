@@ -106,24 +106,20 @@ function App() {
                   <input id ="ser"  placeholder='Search'></input>
                   </Col>
                   <Col  >
-                  <button id="thum" ><span class="icon"></span></button>
+                  <button id="thum" ><span className="icon"></span></button>
                   </Col>
 
                 </Row>
 
-                <button id="thump" ><span class="icon"></span>Thump impression</button>
+                <button id="thump" ><span className="icon"></span>Thump impression</button>
 
               </Col>
+              
+            <Col>
 
+                <button id="new" onClick={newres}> <span className="icon"></span>Add new patient</button>
 
-              <Col>
-
-
-                <button id="new" onClick={newres}> <span class="icon"></span>Add new patient</button>
-
-                <button id="ret"> <span class="icon"></span>Retina scan</button>
-
-
+                <button id="ret"> <span className="icon"></span>Retina scan</button>
 
               </Col>
 
@@ -149,7 +145,6 @@ function App() {
               <Progressbar bgcolor="#99ff66" progress='50' height={10} />
             </div>
 
-
           </Row>
 
         </Col>
@@ -162,7 +157,6 @@ function App() {
                 <Col
                 className='Burns'>Burns
                 <p id="burns">0</p>
-              
                 
                  </Col>
 
@@ -173,7 +167,6 @@ function App() {
                 <p id="acc">5</p></Col>
 
               </Row>
-
               <Row>
 
                 <Col className='Frac'>Fractures
@@ -184,12 +177,7 @@ function App() {
 
                 <Col className='Elect'>Electrocution
                 <p id="elect">1</p></Col>
-
-
               </Row>
-
-
-
             </form>
 
           </Col>
@@ -200,32 +188,19 @@ function App() {
 
 
 <div id="EP">
-
-<button id="phone" ><span class="icon"></span></button>
-<button  id="video" ><span class="icon"></span></button>
-<button id="smart" ><span class="icon"></span></button>
+<button id="phone" ><span className="icon"></span></button>
+<button  id="video" ><span className="icon"></span></button>
+<button id="smart" ><span className="icon"></span></button>
 <p id="ph">Phone Assist</p>
 <p id="vi">video Assist</p>
 <p id="sm">SmartAssist</p>
-
-
-
 </div>
-
 </form>
-
-
           </Col>
 
-
         </Col>
-
       </Row>
     </div>
-
-
-
-
   );
   
 }
