@@ -16,11 +16,12 @@
     
     
     }
-    h4 {
+    #fh4 {
       font-size: 16px;
       text-align: center;
       color:#01205C;
      margin-top: 5%;
+     margin-left: 20px;
       
       }
     
@@ -36,6 +37,8 @@
   color:white;
   text-align:center;
   margin-top:5%;
+  font-size: 10px;
+  margin-left:100px;
   
   
 }
@@ -50,6 +53,8 @@
   color:grey ;
   text-align:center;
   margin-top:5%;
+  font-size: 12px;
+  margin-left:100px;
   
   
 }
@@ -64,27 +69,35 @@
   color:white;
   text-align:center;
   margin-top:5%;
+  font-size: 12px;
+  margin-left: 100px;;
   
   
 }
 #fh6{
   color: #01205C;
   margin-top: 5px;
+  margin-left: 60px;
+  
 
 }
 #fh7{
     color: grey;
     font-size: 10px;
+    margin-left: 140px;
     
 }
 #fh8{
   color:grey ;
   font-size: 10px;
+  margin-left: 140px;
 }
 #ftext1{
   border-radius: 10px;
   width:50%;
   height:35px;
+  font-size: 12px;
+  margin-left: 80px;
 }
 
     

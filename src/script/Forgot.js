@@ -18,7 +18,7 @@ function App() {
         <div>
           <button id="fbutton1">send OTP</button>
         </div>
-        <h7>resend OTP?</h7>
+        <h7 id="fh7">resend OTP?</h7>
 
         <div>
            <button id="fbutton2">Enter OTP</button>
