@@ -221,17 +221,14 @@ line-height: 12px;
 text-align: center;
 color: #6A7888;
 }
-#nam{
+#dev{
 width: 82px;
 height: 12px;
-left: 200px;
+margin-left: 35px;
 
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
 font-size: 12px;
-line-height: 12px;
-margin: -15px;
 color: #001C3C;
 }
 #add{
@@ -305,16 +302,18 @@ color: #001C3C;
     margin-top: 10px;
     margin-left: 50px;
 }
-#years{
+#var{
     border-radius: 10px;
+    margin-left: -10px;
     padding: 5px;
-    border: 1px solid #6A7888;
+    border: 1px solid #264c78;
     color:#6A7888
+    
 }
 #value{
     border-radius: 10px;
-    padding: 5px;
-    margin-left: 18px;   
+    margin-left: 25px;
+    padding: 5px;   
     border: 1px solid #6A7888;
     color:#6A7888
 }
@@ -396,4 +395,19 @@ padding-top: 15px;
     font-size: small;
     margin-top: 20px;
     margin-left: 230px;
+}
+#finger1{
+  background: url(./img/finger1.svg)no-repeat;
+  width: 146px;
+height: 90px;
+margin-left: 850px;
+margin-top: -200px;
+
+}
+#retina{
+  background: url(./img/retina.svg)no-repeat;
+  width: 146px;
+  height: 90px;
+  margin-left: 930px;
+margin-top: -90px;
 }
