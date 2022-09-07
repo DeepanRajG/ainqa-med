@@ -1,0 +1,59 @@
+[
+    {
+        "result": [
+            {
+                "_key": "11330",
+                "_id": "CodingMaster/11330",
+                "_rev": "_eux45Bu---",
+                "code": "AMPF",
+                "display": "Partner Referral",
+                "id": 1317,
+                "Type": "AMBULANCEREFTYPE",
+                "shortdesc": "Partner Referral",
+                "gmconfigvalues": {},
+                "status": true,
+                "createdby": "",
+                "createddate": 1662369631,
+                "updatedby": "",
+                "updatedate": 1662369631,
+                "activestatus": true
+            },
+            {
+                "_key": "11331",
+                "_id": "CodingMaster/11331",
+                "_rev": "_eux45By---",
+                "code": "AMNP",
+                "display": "External/ Non Partner",
+                "id": 1318,
+                "Type": "AMBULANCEREFTYPE",
+                "shortdesc": "External/ Non Partner",
+                "gmconfigvalues": {},
+                "status": true,
+                "createdby": "",
+                "createddate": 1662369677,
+                "updatedby": "",
+                "updatedate": 1662369677,
+                "activestatus": true
+            },
+            {
+                "_key": "11332",
+                "_id": "CodingMaster/11332",
+                "_rev": "_eux45By--A",
+                "code": "AMIO",
+                "display": "Internal/ Own",
+                "id": 1319,
+                "Type": "AMBULANCEREFTYPE",
+                "shortdesc": "Internal/ Own",
+                "gmconfigvalues": {},
+                "status": true,
+                "createdby": "",
+                "createddate": 1662369736,
+                "updatedby": "",
+                "updatedate": 1662369736,
+                "activestatus": true
+            }
+        ],
+        "query": " FOR adqolcCodingMaster IN CodingMaster FILTER adqolcCodingMaster.Type=='AMBULANCEREFTYPE'    Return adqolcCodingMaster",
+        "Code": 201
+    }
+]

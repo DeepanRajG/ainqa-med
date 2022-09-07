@@ -1,5 +1,6 @@
 import '../css/App.css';
-import React, { useState } from "react";
+import React, { useState ,useEffect  } from "react";
+import ReactDom from "react-dom"
 import OtpInput from "react-otp-input";
 import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
@@ -9,6 +10,23 @@ import Row from 'react-bootstrap/Row';
 let OTP;
 
 function App() {
+  
+  const makeAPICall = async () => {
+    try {
+      const response = await fetch('http://localhost:8080/api/v1/ambulance_ref_type', {mode:'cors'});
+      const data = await response.json();
+      console.log({ data })
+    }
+    catch (e) {
+      console.log(e)
+    }
+  }
+  useEffect(() => {
+    makeAPICall();
+  }, [])
+ 
+ 
+
   let json = {
     "pin": " ",
     "_key": " "
