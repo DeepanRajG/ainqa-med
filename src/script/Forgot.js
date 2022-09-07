@@ -44,7 +44,7 @@ function App() {
         <form id="fform">
         <h4 id='fh4'>FORGOT PIN?</h4>
 
-        <h6 id='fh6'>Registered mobile number</h6>
+        <p id='fh6'>Registered mobile number</p>
         <div> 
           
           <input id="ftext1" type="text" placeholder="+91"></input>
@@ -55,12 +55,12 @@ function App() {
         <div>
           <button id="fbutton1">send OTP</button>
         </div>
-        <h7 id="fh7">resend OTP?</h7>
+        <p id="fh7">resend OTP?</p>
 
         <div>
-           <button id="fbutton2">Enter OTP</button>
+           <input id="fbutton2" placeholder='Enter Otp'></input>
         </div>
-        <h8 id='fh8'>00:55sec</h8>
+        <p id='fh8'>00:55sec</p>
         <div>
           <button id="fbutton3"> Verify</button></div>
 

@@ -11,11 +11,14 @@ let OTP;
 
 function App() {
   
+  const [JsonData, setJsonData] = useState("");
+  
   const makeAPICall = async () => {
     try {
       const response = await fetch('http://localhost:8080/api/v1/ambulance_ref_type', {mode:'cors'});
       const data = await response.json();
-      console.log({ data })
+     // console.log({ data })
+     setJsonData(data)
     }
     catch (e) {
       console.log(e)
@@ -24,8 +27,21 @@ function App() {
   useEffect(() => {
     makeAPICall();
   }, [])
- 
- 
+try{
+  for(let i =0;i<=2;i++){
+    var optionData=JsonData[0].result[i].shortdesc;
+    var optionKey=JsonData[0].result[i]._key;
+    document.getElementById("option"+i).innerHTML = optionData;
+    document.getElementById("option"+i).value = optionKey;
+  }
+}
+catch (e){
+
+}
+
+
+
+
 
   let json = {
     "pin": " ",
@@ -45,7 +61,7 @@ function App() {
 
   const [otpInput, setOtpInput] = useState("");
   const handleChange = (otp) => {
-    console.log(otp);
+     //console.log(otp);
     OTP = otp;
     setOtpInput(otp);
   };
@@ -75,6 +91,7 @@ function App() {
       setOtpInput("");
     }
   }
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -87,10 +104,10 @@ function App() {
             >
 
 
-              <option value="DEFAULT" hidden>Ambulance referral type </option>
-              <option value="partner">Partner referral</option>
-              <option value="External/non partner">External/non partner</option>
-              <option value="internal/own">Internal/own</option>
+              <option id='option' value="DEFAULT" hidden>Ambulance referral type </option>
+              <option id='option0' value="partner">Partner referral</option>
+              <option id='option1' value="External/non partner">External/non partner</option>
+              <option id='option2' value="internal/own">Internal/own</option>
             </select>
 
             <p id='ent'>ENTER PIN</p>

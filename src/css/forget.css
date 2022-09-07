@@ -46,15 +46,20 @@
 {
   background-color: white;
   border-color: #01205C;
-  padding: 10px 10px;
+ 
+  margin:auto;
+  margin-top:5%;
+  margin-left: 100px;
+  
+  
+
   height: 35px;
   width: 40%;
   border-radius: 10px;
   color:grey ;
-  text-align:center;
-  margin-top:5%;
   font-size: 12px;
-  margin-left:100px;
+  place-content: center;
+ 
   
   
 }
