@@ -1,6 +1,6 @@
 #header0 {
   
-    background-color: #000646;
+    background-color: #01205C;
     height: 80px;
     color: aliceblue;
     text-align: left;
@@ -93,7 +93,7 @@
     height: 30px;
     margin-right: 10px;
     margin-top: 10px;
-   background-color: #000646;
+   background-color: #01205C;
    border: 0px;
    color: aliceblue;
    font-size: small;
@@ -104,7 +104,7 @@
   }
   #selectopt{
     margin-right: 10px;
-    background-color: #000646;
+    background-color: #01205C;
     border: 0px;
     color: aliceblue;
     font-size: medium;
@@ -197,8 +197,8 @@ margin-top: 62px;
 position: absolute;
 width: 152px;
 height: 16px;
-left: 77px;
-top: 130px;
+left: 79px;
+top: 150px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -212,7 +212,7 @@ position: absolute;
 width: 93px;
 height: 16px;
 left: 220px;
-top: 130px;
+top: 150px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;

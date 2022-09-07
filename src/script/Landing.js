@@ -6,7 +6,6 @@ import Row from 'react-bootstrap/Row';
 import Progressbar from './progressbar';
 import { useNavigate } from "react-router-dom";
 
-
 function App() {
   const navigate = useNavigate();
   const func = () => {
@@ -214,13 +213,16 @@ function App() {
 <button id="phone" ><span class="icon"></span></button>
 <button  id="video" ><span class="icon"></span></button>
 <button id="smart" ><span class="icon"></span></button>
+<p id="ph">Phone Assist</p>
+<p id="vi">video Assist</p>
+<p id="sm">SmartAssist</p>
 
 
 
 </div>
 
 </form>
-<p id="ca">vido  call</p>
+
 
           </Col>
 
