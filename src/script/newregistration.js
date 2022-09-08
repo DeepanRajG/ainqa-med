@@ -10,6 +10,24 @@ import Toggle from 'react-styled-toggle';
 
 
 function App() {
+
+
+  const handleChangePhotoFileInput = (e) => {
+    const target = e.currentTarget;
+    const fileList = target.files;
+    const actualFile = target.files.item(0);
+
+    // validate file as image
+    if (!actualFile.type.startsWith("image/")) {
+      alert("File is not an image");
+      return;
+    }
+  //  uploadFileList([actualFile]).then((result) => {
+  //   //Api response will be recieved from result. store the fileid
+  //   });
+
+    
+  };
     const navigate = useNavigate();
     const func = () => {
         var e = document.getElementById("selectopt");
@@ -71,18 +89,22 @@ function App() {
 
             </header>
 
-            <div id="pt">
-              <p id="text">Patient ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
-              <input id="ct"></input>
-              </div>
+            
               <div id="ot"></div>
               <p id="tect">MRN ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
               <div id="dv">2435392</div>
-              <p id="nam">Patient Name</p>
-              <input type="text" id="add" placeholder="Enter patient name"></input>
+             <div> 
+              <p id="text">Patient ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+          <input id="ct"></input>
+              </div>
+              <div id="don">             
+                 <p id="nam">Patient Name</p>
+              <input type="text" id="add" placeholder="Enter patient name"></input></div>
+
               <p id="ag">Age</p>
               <div id="age">
-      <select id="value" defaultValue={"DEFAULT"}>
+      <select id="tum" defaultValue={"DEFAULT"}>
       <option value="DEFAULT" hidden>Years </option>
         <option value="years">1years</option>
         <option value="years">2years</option>
@@ -210,14 +232,14 @@ function App() {
       <Col>
       <p id="ag">Height</p>
       <input type="text" id="het"></input>
-      <select id="value">
+      <select id="dk">
         <option value="height">cm</option>
         <option value="height">inches</option>
         </select> 
         </Col> 
         <Col>
         <p id="ag">Weight</p>
-      <input type="text" id="het"></input>
+      <input type="text" id="wet"></input>
     </Col>
     <p id="ag">Blood Group</p>
         <Col>
@@ -239,11 +261,11 @@ function App() {
         <div id="box">
         
  <div id="human"></div>
-          <Col id="box2"><p id="app">+ Add Patient Photo</p></Col>
+          <Col id="box2"><input type="file" onChange={(e)=> this.handleChangePhotoFileInput(e)} ></input></Col>
          </div>
          <div id="boxx">
          <div id="location"></div>
-          <Col id="box3"><p id="loc">+ Add More Images</p></Col>
+          <Col id="box3"><p id="loc" >+ Add More Images</p></Col>
          </div>
          <button className="button4" >Add Location</button>
          

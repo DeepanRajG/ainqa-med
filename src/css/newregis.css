@@ -10,9 +10,9 @@
   }
   #quick{
     
-    text-align: left;
+    margin-left: 50px;
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 50px;
     
     font-size: 23px;
     font-weight: bold;
@@ -160,48 +160,48 @@ position: absolute;
 width: 25px;
 height: 25px;
 margin-left: 50px;
-margin-top: 30px;
+margin-top: 20px;
 }
 #text{
     position: absolute;
     width: 152px;
     height: 16px;
-    left: 28px;
-    top: 10px;
+    left: 60px;
+    top: 150px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 12px;
    text-align: center;
     color: #001C3C;   
 }
 #ct{
-position: absolute;
 font-family: 'Poppins';
 font-style: normal;
 font-size: 18px;
 color: #6A7888;
-width: 82px;
-height: 22px;
+width: 230px;
+height: 35px;
 line-height: 32px;
-margin-left: 180px;
-margin-top: 8px;
-border-radius: 8px;
+margin-left: 100px;
+margin-top: 18px;
+border-radius: 10px;
+border: 1px solid #DFE5EB;
+
 }
 #ot{
 background: url(./img/pat.svg) no-repeat;
 height:60px;
 width:60px;
-margin-left: 50px;
-margin-top: 62px;
+margin-left: 100px;
+margin-top: 13px;
 }
 #tect{
 position: absolute;
 width: 152px;
 height: 16px;
-left: 79px;
-top: 150px;
+left: 130px;
+top: 100px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -214,8 +214,8 @@ color: #001C3C;
 position: absolute;
 width: 93px;
 height: 16px;
-left: 220px;
-top: 150px;
+left: 300px;
+top: 100px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -228,7 +228,7 @@ color: #6A7888;
 position: absolute;
 width: 82px;
 height: 12px;
-left: 60px;
+left: 110px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -241,10 +241,9 @@ color: #001C3C;
     box-sizing: border-box;
     width: 230px;
     height: 35px;
-    left: 45px;
     border: 1px solid #DFE5EB;
     border-radius: 10px;  
-    margin-left: 35px;
+    margin-left: 98px;
 }
 ::placeholder { 
 text-indent: 10px;
@@ -260,7 +259,7 @@ top: 8px;
     font-size: 12px;
     line-height: 12px;
     color: #001C3C;
-    margin-left: 40px;
+    margin-left: 95px;
     margin-top: 20px
     ;
 }
@@ -297,27 +296,29 @@ color: #001C3C;
     box-sizing: border-box;
     width: 229px;
     height: 65px;
-    left: 45px;
     border: 1px solid #DFE5EB;
     border-radius: 10px; 
     margin: 0px;
-    margin-left: 45px;
+    margin-left: 100px;
    
     }
    #age{
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
-#years{
+#tum{
+  width: 100px;
     border-radius: 10px;
     padding: 5px;
     border: 1px solid #6A7888;
-    color:#6A7888
+    color: #6a7888;
+    margin-left: 1px;
 }
 #value{
+  width: 100px;
     border-radius: 10px;
     padding: 5px;
-    margin-left: 18px;   
+    margin-left: 25px;   
     border: 1px solid #6A7888;
     color:#6A7888
 }
@@ -348,20 +349,20 @@ padding-top: 15px;
     color: #001C3C;    
 }
 #het{
-    width: 250px;
-    height: 30px;
-    border: 1px solid #6A7888;
+    width: 82px;
+    height: 35px;
+    border: 1px solid #DFE5EB;
     border-radius: 8px;
-    margin-left: 45px;
+    margin-left: 102px;
     margin-right: 10px;
 }
 #bg{
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid #6A7888;
-    color:#6A7888;
-    margin-left: 45px;
-    width: 250px;
+  box-sizing: border-box;
+  width: 230px;
+  height: 35px;
+  border: 1px solid #DFE5EB;
+  border-radius: 10px;  
+  margin-left: 98px;
 }
 .button1{
   background-color:#F1F6FC;
@@ -398,7 +399,7 @@ padding-top: 15px;
     text-align:center;
     font-size: small;
     margin-top: 20px;
-    margin-left: 330px;
+    margin-left: 763px;
 }
 #finger1{
   background: url(./img/finger1.svg)no-repeat;
@@ -407,9 +408,9 @@ padding-top: 15px;
 
 height: 90px;
 
-margin-left: 1080px;
+margin-left: 1360px;
 
-margin-top: -200px;
+margin-top: -230px;
 }
 #retina{
 
@@ -419,7 +420,7 @@ margin-top: -200px;
 
   height: 90px;
 
-  margin-left: 1170px;
+  margin-left: 1460px;
 
 margin-top: -90px;
 
@@ -430,7 +431,7 @@ height:100px;
 width: 110px;
 border-radius: 8px;
 margin-right: 200px;
-margin-top: -550px;
+margin-top: -600px;
 flood-color: right;
 float: right;
 }
@@ -438,7 +439,7 @@ float: right;
   text-align: center;
   font-size: 10.7px;
   color: #2A60BC;
-  margin-top: 5px;
+  margin-top: -4px;
 }
 #box2{
   height: 29px;
@@ -462,7 +463,8 @@ float: right;
   
 
 }
-#box3{ height: 30px;
+#box3{
+   height: 30px;
   width: 220px;
   border-radius: 4px;
   border-style: dashed;
@@ -520,7 +522,7 @@ text-align:center;
   font-weight: bold;
   font-family: Poppins;
   margin-top: -90px;
-  margin-right: 250px;
+  margin-right: 270px;
   
   float: right;
 }
@@ -531,4 +533,25 @@ text-align:center;
 }
 #vip{
   margin-left:1500 px;
+}
+#don{
+  margin-top: 40px;
+  margin-left: 130;
+}
+
+#dk{
+  width: 82px;
+    height: 35px;
+    border: 1px solid #DFE5EB;
+    border-radius: 8px;
+  color: #6a7888;
+  margin-left: 10px;
+}
+#wet{
+  box-sizing: border-box;
+  width: 230px;
+  height: 35px;
+  border: 1px solid #DFE5EB;
+  border-radius: 10px;  
+  margin-left: 98px;
 }

@@ -12,21 +12,64 @@ let OTP;
 function App() {
   
   const [JsonData, setJsonData] = useState("");
+  const [getdata, setPostId] = useState("");
+
+
   
-  const makeAPICall = async () => {
+  
+  const makeAPIpost = async () => {
+    functions();
+
+   
+
     try {
-      const response = await fetch('http://localhost:8080/api/v1/ambulance_ref_type', {mode:'cors'});
+      const response = await fetch('https://idmservices.dev.ainqaplatform.in/login_keycloackuser', {
+        method: 'POST',
+        headers:{
+          'Content-Type': 'application/json',
+          'tenantid':"04d7631b-3216-4a40-9821-b997b2ce0031"
+        },
+        body: JSON.stringify(json)
+        
+
+    });
       const data = await response.json();
-     // console.log({ data })
+
+      let dataa=data.tokenDetails.access_token;
+      
+      console.log(dataa)
      setJsonData(data)
     }
     catch (e) {
       console.log(e)
     }
   }
-  useEffect(() => {
-    makeAPICall();
-  }, [])
+
+  // const makeAPIget = async () => {
+   
+
+  //   try {
+  //     const response = await fetch('https://idmservices.dev.ainqaplatform.in/login_keycloackuser',{mode:"cors"});
+  //     const data = await response.json();
+  //     console.log({ data })
+  //    //setJsonData(data)
+  //   }
+  //   catch (e) {
+  //     console.log(e)
+  //   }
+  // }
+  // useEffect(() => {
+  //   makeAPIget();
+  // }, [])
+
+
+
+
+
+
+
+
+
 try{
   for(let i =0;i<=2;i++){
     var optionData=JsonData[0].result[i].shortdesc;
@@ -43,10 +86,7 @@ catch (e){
 
 
 
-  let json = {
-    "pin": " ",
-    "_key": " "
-  }
+  let json ={} ;
   const navigate = useNavigate();
 
   //onclick event
@@ -73,13 +113,13 @@ catch (e){
       var e = document.getElementById("ambu");
       document.getElementById("errorr").innerHTML = ""
       var value = e.value;
-      var text = e.options[e.selectedIndex].text;
+     // var text = e.options[e.selectedIndex].text;
       let path = '/ainqa-med/landing';
       navigate(path);
 
-      json.type = text;
-      json._key = value;
-      json.pin = OTP;
+      //json.type = text;
+      json.username = value;
+      json.password = 1234;
       console.log(json);
     }
     else if (OTP == null) {
@@ -100,9 +140,9 @@ catch (e){
             <p id='hed'>PARAMEDIC LOGIN</p>
             <select id="ambu" defaultValue={"DEFAULT"}>
               <option id='option' value="DEFAULT" hidden>Ambulance Referral Type </option>
-              <option id='option0' value="partner">Partner referral</option>
-              <option id='option1' value="External/non partner">External/non partner</option>
-              <option id='option2' value="internal/own">Internal/own</option>
+              <option id='option0' value="CodingMaster/11330" >Partner referral</option>
+              <option id='option1' value="CodingMaster/11331">External/non partner</option>
+              <option id='option2' value="CodingMaster/11332">Internal/own</option>
             </select>
 
             <p id='ente'>ENTER PIN</p>
@@ -141,7 +181,7 @@ catch (e){
           </Col>
           <p className="forgotlog" onClick={onclickEvent}>
               Forgot PIN?</p>
-          <button className="buttonlog" onClick={functions} >Login</button>
+          <button className="buttonlog" onClick={makeAPIpost} >Login</button>
         </div>
 
       </header>
