@@ -18,7 +18,7 @@ function App() {
       var text = e.options[e.selectedIndex].text;
       console.log(text)
       if(text=="Log Out"){
-          let path = '/ainqa-med/login';
+          let path = '/ainqa-med/';
           navigate(path);
       }
   }
