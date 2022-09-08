@@ -44,7 +44,7 @@ header {
   font-size: 8px;
 
   background-color: aliceblue;
-  margin-left: 80px;
+  margin-left: 90px;
   border: 1px solid #DFE5EB;
   
 
@@ -71,8 +71,8 @@ header {
 #stock {
   color: #001C3C;
   margin: 0px;
-  margin-top: 10px;
-  margin-left: 100px;
+  margin-top: 30px;
+  margin-left: 90px;
   font-weight: bold;
   position: relative;
   bottom:6px;
@@ -187,7 +187,7 @@ font-size: 12px;
   font-size: 8px;
 
   background-color: aliceblue;
-  margin-left: 30px;
+  margin-left: 90px;
   
   border: 1px solid #DFE5EB;
 }
@@ -358,8 +358,8 @@ font-size: 12px;
  #stock1 {
   color: #001C3C;
   margin: 0px;
-  margin-top: 200px;
-  margin-left: 50px;
+  margin-top: 15px;
+  margin-left: 90px;
   font-weight: bold;
   position: relative;
   bottom: 6px;
