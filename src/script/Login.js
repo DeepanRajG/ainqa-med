@@ -51,7 +51,7 @@ catch (e){
 
   //onclick event
   const onclickEvent = () => {
-    let path = 'forgotpassword';
+    let path = '/ainqa-med/forgotpassword';
     navigate(path);
   }
 
@@ -70,11 +70,11 @@ catch (e){
   const functions = () => {
 
     if (OTP == 123456) {
-      var e = document.getElementById("dropdown");
+      var e = document.getElementById("ambu");
       document.getElementById("errorr").innerHTML = ""
       var value = e.value;
       var text = e.options[e.selectedIndex].text;
-      let path = 'landing';
+      let path = '/ainqa-med/landing';
       navigate(path);
 
       json.type = text;
@@ -84,34 +84,29 @@ catch (e){
     }
     else if (OTP == null) {
       document.getElementById("errorr").innerHTML = "Please enter pin"
-      setOtpInput("");
+      setOtpInput(null);
     }
     else {
-      document.getElementById("errorr").innerHTML = "&emsp;&ensp; Wrong pin"
-      setOtpInput("");
+      document.getElementById("errorr").innerHTML = "Wrong pin"
+      setOtpInput(null);
     }
   }
   
   return (
     <div className="App">
       <header className="App-header">
-        <div id="form">
+        <div id="lg">
           <Col >
             <p id='hed'>PARAMEDIC LOGIN</p>
-            <select className="dropdown" id="dropdown" defaultValue={"DEFAULT"}
-
-
-            >
-
-
-              <option id='option' value="DEFAULT" hidden>Ambulance referral type </option>
+            <select id="ambu" defaultValue={"DEFAULT"}>
+              <option id='option' value="DEFAULT" hidden>Ambulance Referral Type </option>
               <option id='option0' value="partner">Partner referral</option>
               <option id='option1' value="External/non partner">External/non partner</option>
               <option id='option2' value="internal/own">Internal/own</option>
             </select>
 
-            <p id='ent'>ENTER PIN</p>
-            <h5 id="errorr"> </h5>
+            <p id='ente'>ENTER PIN</p>
+            <h5 id="errorr"></h5>
 
 
 
@@ -128,7 +123,7 @@ catch (e){
                 margin:"auto",
                 position:"relative",
                 bottom: "0px",
-                top:"0px",
+                top:"-3px",
               }}
               isInputSecure={false}
               onChange={handleChange}
@@ -146,7 +141,7 @@ catch (e){
           </Col>
           <p className="forgotlog" onClick={onclickEvent}>
               Forgot PIN?</p>
-          <button className="buttonlog" onClick={functions} >login</button>
+          <button className="buttonlog" onClick={functions} >Login</button>
         </div>
 
       </header>

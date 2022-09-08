@@ -12,16 +12,15 @@
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    flex-direction :row ;
-    
-    
+    flex-direction :row ;   
     }
     #fh4 {
-      font-size: 16px;
+      font-size:18px;
       text-align: center;
-      color:#01205C;
-     margin-top: 5%;
-     margin-left: 20px;
+      color:#001C3C;
+      font-weight:600;
+     margin-top:9%;
+     margin-left:-10px;
       
       }
     
@@ -30,81 +29,77 @@
 {
   background-color:#0d2555;
   border-color: #01205C;
-  padding: 10px 10px;
+ 
   height: 35px;
-  width: 40%;
+  width: 35%;
   border-radius: 10px;
   color:white;
   text-align:center;
   margin-top:5%;
-  font-size: 10px;
-  margin-left:100px;
+  font-size:14px;
+  margin-left:110px;
   
   
 }
 #fbutton2
 {
   background-color: white;
-  border-color: #01205C;
- 
-  margin:auto;
-  margin-top:5%;
-  margin-left: 100px;
-  
-  
-
+  border:1px solid rgb(208, 202, 202);
+  margin-top:-30px;
+  margin-left: 110px;
   height: 35px;
-  width: 40%;
+  width: 35%;
   border-radius: 10px;
-  color:grey ;
-  font-size: 12px;
-  place-content: center;
- 
-  
-  
+  color:rgb(198, 187, 187) ;
+  font-size: 14px;
+  text-align:left;  
 }
 #fbutton3
 {
   background-color:#0d2555;
   border-color: #01205C;
-  padding: 10px 10px;
   height: 35px;
-  width: 40%;
+  width: 35%;
   border-radius: 10px;
   color:white;
   text-align:center;
-  margin-top:5%;
-  font-size: 12px;
-  margin-left: 100px;;
+  margin-top:5px;
+  font-size: 14px;
+  margin-left: 111px;;
   
   
 }
 #fh6{
-  color: #01205C;
-  margin-top: 5px;
-  margin-left: 60px;
-  
+  color: #001C3C;
+  font-weight:500;
+  position: relative;
+  left:35px;
+  top:10px;
+  font-size:14px;
 
 }
 #fh7{
     color: grey;
-    font-size: 10px;
-    margin-left: 140px;
+    font-size: 14px;
+    text-align:center;
+    margin-top:9px;
     
 }
 #fh8{
   color:grey ;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 140px;
+  margin-top:10px;
 }
 #ftext1{
   border-radius: 10px;
-  width:50%;
+  border:1px solid rgb(208, 202, 202) ;
+  width:270px;
   height:35px;
   font-size: 12px;
-  margin-left: 80px;
+  margin-left: 30px;
+  margin-top:0px;
+  text-align:left;
 }
-
-    
-    
+ 
    

@@ -5,8 +5,11 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Progressbar from './progressbar';
 import { useNavigate } from "react-router-dom";
+import React, { useState ,useEffect  } from "react";
 
 function App() {
+
+
   const navigate = useNavigate();
   const func = () => {
       var e = document.getElementById("selectopt");
@@ -15,13 +18,13 @@ function App() {
       var text = e.options[e.selectedIndex].text;
       console.log(text)
       if(text=="Log Out"){
-          let path = '/login';
+          let path = '/ainqa-med/';
           navigate(path);
       }
   }
   const newres = () => {
 
-        let path = '/newRegestration';
+        let path = '/ainqa-med/newRegestration';
         navigate(path);
     }
 

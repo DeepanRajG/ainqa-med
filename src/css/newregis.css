@@ -178,13 +178,16 @@ margin-top: 30px;
 }
 #ct{
 position: absolute;
-left: 180px;
-top: 12px;
 font-family: 'Poppins';
 font-style: normal;
-font-size: 17px;
-line-height: 12px;
+font-size: 18px;
 color: #6A7888;
+width: 82px;
+height: 22px;
+line-height: 32px;
+margin-left: 180px;
+margin-top: 8px;
+border-radius: 8px;
 }
 #ot{
 background: url(./img/pat.svg) no-repeat;
@@ -525,4 +528,7 @@ text-align:center;
   float: right;
   margin-top: -90px;
   margin-right: 160px;
+}
+#vip{
+  margin-left:1500 px;
 }
