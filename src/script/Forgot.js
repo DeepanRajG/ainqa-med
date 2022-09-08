@@ -53,9 +53,9 @@ function App() {
          
         
         <div>
-          <button id="fbutton1">send OTP</button>
+          <button id="fbutton1">Send OTP</button>
         </div>
-        <p id="fh7">resend OTP?</p>
+        <p id="fh7">Resend OTP?</p>
 
         <div>
            <input id="fbutton2" placeholder='Enter Otp'></input>
