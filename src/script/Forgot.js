@@ -48,6 +48,7 @@ function App() {
         <div> 
           
           <input id="ftext1" type="text" placeholder="+91"></input>
+          
            
           </div>
          
