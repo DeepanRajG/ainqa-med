@@ -18,13 +18,13 @@ function App() {
       var text = e.options[e.selectedIndex].text;
       console.log(text)
       if(text=="Log Out"){
-          let path = '/login';
+          let path = '/ainqa-med/login';
           navigate(path);
       }
   }
   const newres = () => {
 
-        let path = '/newRegestration';
+        let path = '/ainqa-med/newRegestration';
         navigate(path);
     }
 

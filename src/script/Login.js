@@ -51,7 +51,7 @@ catch (e){
 
   //onclick event
   const onclickEvent = () => {
-    let path = 'forgotpassword';
+    let path = '/ainqa-med/forgotpassword';
     navigate(path);
   }
 
@@ -70,11 +70,11 @@ catch (e){
   const functions = () => {
 
     if (OTP == 123456) {
-      var e = document.getElementById("dropdown");
+      var e = document.getElementById("ambu");
       document.getElementById("errorr").innerHTML = ""
       var value = e.value;
       var text = e.options[e.selectedIndex].text;
-      let path = 'landing';
+      let path = '/ainqa-med/landing';
       navigate(path);
 
       json.type = text;
@@ -84,18 +84,18 @@ catch (e){
     }
     else if (OTP == null) {
       document.getElementById("errorr").innerHTML = "Please enter pin"
-      setOtpInput("");
+      setOtpInput(null);
     }
     else {
-      document.getElementById("errorr").innerHTML = "&emsp;&ensp; Wrong pin"
-      setOtpInput("");
+      document.getElementById("errorr").innerHTML = "Wrong pin"
+      setOtpInput(null);
     }
   }
   
   return (
     <div className="App">
       <header className="App-header">
-        <form id="lg">
+        <div id="lg">
           <Col >
             <p id='hed'>PARAMEDIC LOGIN</p>
             <select id="ambu" defaultValue={"DEFAULT"}>
@@ -106,7 +106,7 @@ catch (e){
             </select>
 
             <p id='ente'>ENTER PIN</p>
-            <h5 id="errorr"> </h5>
+            <h5 id="errorr"></h5>
 
 
 
@@ -142,7 +142,7 @@ catch (e){
           <p className="forgotlog" onClick={onclickEvent}>
               Forgot PIN?</p>
           <button className="buttonlog" onClick={functions} >Login</button>
-        </form>
+        </div>
 
       </header>
     </div>
