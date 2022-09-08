@@ -30,7 +30,7 @@
   #quick{
     
     text-align: left;
-    padding-top: 0px;
+    padding-top: 12px;
     padding-left: 15px;
     
     font-size: 23px;
@@ -40,7 +40,7 @@
   
    
     .tog{
-      margin-left: 50px;
+      margin-left: 70px;
     }
   
   #wether{
@@ -303,7 +303,7 @@ font-weight:500;
     margin-left: 35%;
     font-size:24px;
     position: relative;
-    top:5px;
+    top:3px;
 }
 #kg{
     color:#6A7888;
@@ -350,7 +350,7 @@ font-weight:500;
     border:1px none;
     height:23px;
     width:2px;
-    margin-left:57% ;
+    margin-left:58% ;
     margin-top: -24px;
 }
 #blood{
@@ -374,7 +374,7 @@ font-weight:500;
     min-width:43px;
     min-height: 20px;
     margin-top:-20px;
-    margin-left:60%;
+    margin-left:61%;
     white-space: nowrap; 
 }
 #his{
@@ -389,7 +389,7 @@ font-weight:500;
 #view{
     background-color: #2A60BC;
     position:absolute;
-    top:46%;
+    top:47%;
     right:12%;
     height:25px;
     width:72px;
@@ -439,7 +439,7 @@ background-size: contain;
     width: 100px;
     height:100px;
     margin-left:70%;
-    margin-top:65%;
+    margin-top:70%;
 }
 #yes{
     background: url('./img/yes.svg') no-repeat;
@@ -485,7 +485,12 @@ margin-left:23%;
 
      }
 
-
+#ve{
+  color:#6A7888;
+  margin-left: 64%;
+  margin-top: -18px;
+  font-size:14px; 
+}
     
 
 

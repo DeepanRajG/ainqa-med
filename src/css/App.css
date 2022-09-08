@@ -78,7 +78,7 @@
 #errorr{
   font-size: small;
   color:rgb(150, 35, 35);
-  margin-left: 70px;
+  text-align: center;
 }
 
    
@@ -134,6 +134,3 @@ color: #000309;
 
 }
 
-select::-ms-expand {
-     display: none;
-}
