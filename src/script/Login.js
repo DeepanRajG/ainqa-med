@@ -95,22 +95,17 @@ catch (e){
   return (
     <div className="App">
       <header className="App-header">
-        <div id="form">
+        <form id="lg">
           <Col >
             <p id='hed'>PARAMEDIC LOGIN</p>
-            <select className="dropdown" id="dropdown" defaultValue={"DEFAULT"}
-
-
-            >
-
-
-              <option id='option' value="DEFAULT" hidden>Ambulance referral type </option>
+            <select id="ambu" defaultValue={"DEFAULT"}>
+              <option id='option' value="DEFAULT" hidden>Ambulance Referral Type </option>
               <option id='option0' value="partner">Partner referral</option>
               <option id='option1' value="External/non partner">External/non partner</option>
               <option id='option2' value="internal/own">Internal/own</option>
             </select>
 
-            <p id='ent'>ENTER PIN</p>
+            <p id='ente'>ENTER PIN</p>
             <h5 id="errorr"> </h5>
 
 
@@ -128,7 +123,7 @@ catch (e){
                 margin:"auto",
                 position:"relative",
                 bottom: "0px",
-                top:"0px",
+                top:"-3px",
               }}
               isInputSecure={false}
               onChange={handleChange}
@@ -146,8 +141,8 @@ catch (e){
           </Col>
           <p className="forgotlog" onClick={onclickEvent}>
               Forgot PIN?</p>
-          <button className="buttonlog" onClick={functions} >login</button>
-        </div>
+          <button className="buttonlog" onClick={functions} >Login</button>
+        </form>
 
       </header>
     </div>
