@@ -160,48 +160,48 @@ position: absolute;
 width: 25px;
 height: 25px;
 margin-left: 50px;
-margin-top: 30px;
+margin-top: 20px;
 }
 #text{
     position: absolute;
     width: 152px;
     height: 16px;
-    left: 28px;
-    top: 10px;
+    left: 10px;
+    top: 150px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 12px;
    text-align: center;
     color: #001C3C;   
 }
 #ct{
-position: absolute;
 font-family: 'Poppins';
 font-style: normal;
 font-size: 18px;
 color: #6A7888;
-width: 82px;
-height: 22px;
+width: 230px;
+height: 35px;
 line-height: 32px;
-margin-left: 180px;
-margin-top: 8px;
-border-radius: 8px;
+margin-left: 100px;
+margin-top: 18px;
+border-radius: 10px;
+border: 1px solid #DFE5EB;
+
 }
 #ot{
 background: url(./img/pat.svg) no-repeat;
 height:60px;
 width:60px;
 margin-left: 50px;
-margin-top: 62px;
+margin-top: 13px;
 }
 #tect{
 position: absolute;
 width: 152px;
 height: 16px;
 left: 79px;
-top: 150px;
+top: 100px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -215,7 +215,7 @@ position: absolute;
 width: 93px;
 height: 16px;
 left: 220px;
-top: 150px;
+top: 100px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -244,7 +244,7 @@ color: #001C3C;
     left: 45px;
     border: 1px solid #DFE5EB;
     border-radius: 10px;  
-    margin-left: 35px;
+    margin-left: 50px;
 }
 ::placeholder { 
 text-indent: 10px;
@@ -308,11 +308,12 @@ color: #001C3C;
     margin-top: 10px;
     margin-left: 50px;
 }
-#years{
+#tum{
     border-radius: 10px;
     padding: 5px;
     border: 1px solid #6A7888;
-    color:#6A7888
+    color: #6a7888;
+    margin-left: 1px;
 }
 #value{
     border-radius: 10px;
@@ -531,4 +532,7 @@ text-align:center;
 }
 #vip{
   margin-left:1500 px;
+}
+#don{
+  margin-top: 40px;
 }

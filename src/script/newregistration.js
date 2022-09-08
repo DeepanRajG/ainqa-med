@@ -71,18 +71,22 @@ function App() {
 
             </header>
 
-            <div id="pt">
-              <p id="text">Patient ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
-              <input id="ct"></input>
-              </div>
+            
               <div id="ot"></div>
               <p id="tect">MRN ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
               <div id="dv">2435392</div>
-              <p id="nam">Patient Name</p>
-              <input type="text" id="add" placeholder="Enter patient name"></input>
+             <div> 
+              <p id="text">Patient ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+          <input id="ct"></input>
+              </div>
+              <div id="don">             
+                 <p id="nam">Patient Name</p>
+              <input type="text" id="add" placeholder="Enter patient name"></input></div>
+
               <p id="ag">Age</p>
               <div id="age">
-      <select id="value" defaultValue={"DEFAULT"}>
+      <select id="tum" defaultValue={"DEFAULT"}>
       <option value="DEFAULT" hidden>Years </option>
         <option value="years">1years</option>
         <option value="years">2years</option>
