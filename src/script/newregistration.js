@@ -232,14 +232,14 @@ function App() {
       <Col>
       <p id="ag">Height</p>
       <input type="text" id="het"></input>
-      <select id="value">
+      <select id="dk">
         <option value="height">cm</option>
         <option value="height">inches</option>
         </select> 
         </Col> 
         <Col>
         <p id="ag">Weight</p>
-      <input type="text" id="het"></input>
+      <input type="text" id="wet"></input>
     </Col>
     <p id="ag">Blood Group</p>
         <Col>
