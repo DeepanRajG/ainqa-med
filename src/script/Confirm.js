@@ -24,8 +24,7 @@ return(
     <div style={{ display: 'block', }}>
       <header id="header0">
                 <Row id="hd">
-                    <Col> <p id="quick"> QUICK REGISTRATION  </p>
-                    <p id="confr"> CONFIRMATION </p></Col>
+                    <Col> <p id="quick"> QUICK REGISTRATION CONFIRMATION</p></Col>
                     <div id="wether"></div>
                     <p id="p1">30 clody</p>
                     <div id='line'></div>
@@ -95,7 +94,10 @@ return(
       <div id="hei">178</div>
       <div id="cm">Cm</div>
       <div className="recta"></div>
-      <div id="blo">B  +ve</div>
+      <div id="blo">B</div>
+      <div id="ve">+ve</div>
+        
+    
         <div id="his">Patient History</div>
       <button id="view">View</button>
       <form id="finger">
