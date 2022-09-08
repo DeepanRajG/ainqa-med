@@ -10,6 +10,24 @@ import Toggle from 'react-styled-toggle';
 
 
 function App() {
+
+
+  const handleChangePhotoFileInput = (e) => {
+    const target = e.currentTarget;
+    const fileList = target.files;
+    const actualFile = target.files.item(0);
+
+    // validate file as image
+    if (!actualFile.type.startsWith("image/")) {
+      alert("File is not an image");
+      return;
+    }
+  //  uploadFileList([actualFile]).then((result) => {
+  //   //Api response will be recieved from result. store the fileid
+  //   });
+
+    
+  };
     const navigate = useNavigate();
     const func = () => {
         var e = document.getElementById("selectopt");
@@ -243,11 +261,11 @@ function App() {
         <div id="box">
         
  <div id="human"></div>
-          <Col id="box2"><p id="app">+ Add Patient Photo</p></Col>
+          <Col id="box2"><input type="file" onChange={(e)=> this.handleChangePhotoFileInput(e)} ></input></Col>
          </div>
          <div id="boxx">
          <div id="location"></div>
-          <Col id="box3"><p id="loc">+ Add More Images</p></Col>
+          <Col id="box3"><p id="loc" >+ Add More Images</p></Col>
          </div>
          <button className="button4" >Add Location</button>
          
