@@ -9,7 +9,6 @@ import Toggle from 'react-styled-toggle';
 
 
 
-
 function App() {
     const navigate = useNavigate();
     const func = () => {
