@@ -1,4 +1,9 @@
+
+
+
 const uploadUrl= " https://fileupload.dev.ainqaplatform.in/eambulance/11"
+
+
 
 export  const UploadFun = async (file) => {
  return new Promise(async (resolve, reject) => {
@@ -6,8 +11,14 @@ export  const UploadFun = async (file) => {
    formData.append("files", file);
    console.log(file)
    await fetch(uploadUrl, {
+    mode:"cors",
+    
      method: "POST",
-     mode: 'no-cors',
+     headers:{
+        "Access-Control-Allow-Origin": "*"
+     }
+     ,
+    
    
      body: formData,
      redirect: "follow",

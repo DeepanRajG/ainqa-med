@@ -84,6 +84,7 @@ function App() {
         <div className="back">
             <header id="header0">
                 <Row id="hd">
+                <input type="file" onChange={(e)=>handleChangePhotoFileInput(e)} ></input>
                 <Col>
                     {" "}
                     <p id="quick"> QUICK REGISTRATION</p>
@@ -153,7 +154,7 @@ function App() {
         <div id="box">
         
  <div id="human"></div>
-          <Col id="box2"><input type="file" onChange={handleChangePhotoFileInput} ></input></Col>
+          <Col id=""></Col>
          </div>
          <div id="boxx">
          <div id="location"></div>

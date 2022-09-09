@@ -13,6 +13,7 @@ export const uploadFileList = (fileList) => {
       Promise.all(calls)
         .then((data) => {
           let dataList = [];
+
           data.map((val) => {
             if (val.fileid) {
               dataList.push({
@@ -22,6 +23,7 @@ export const uploadFileList = (fileList) => {
                 fileName: val.fileName,
                 date: val?.date?.toString(),
               });
+              console.Array(dataList)
             }
             return false;
           });
