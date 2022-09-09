@@ -9,6 +9,12 @@ import React, { useState ,useEffect  } from "react";
 
 function App() {
 
+  
+
+
+
+
+
 
   const navigate = useNavigate();
   const func = () => {
@@ -129,26 +135,7 @@ function App() {
             </Row>
 
           </Col>
-          <p id="stock">My Stock Status</p>
-          <Row className='scan'>
-            <div id="prog">
-              <p id="progtext1">Basic Life Support Drugs</p>
-              <Progressbar bgcolor="orange" progress='30' height={10} />
-              <p id="progtext">Main RX box</p>
-              <Progressbar bgcolor="red" progress='60' height={10} />
-              <p id="progtext">Long Distance RX box</p>
-              <Progressbar bgcolor="#99ff66" progress='50' height={10} />
-            </div>
-            <div id="prog">
-              <p id="progtext1">Counsumables </p>
-              <Progressbar bgcolor="orange" progress='30' height={10} />
-              <p id="progtext">Bio Medical devices-IOMT</p>
-              <Progressbar bgcolor="red" progress='60' height={10} />
-              <p id="progtext">Other Equipments</p>
-              <Progressbar bgcolor="#99ff66" progress='50' height={10} />
-            </div>
-
-          </Row>
+          
 
         </Col>
         <Col id="right" >
@@ -184,6 +171,26 @@ function App() {
             </form>
 
           </Col>
+          <p id="stock">My Stock Status</p>
+          <Row className='scan'>
+            <div id="prog">
+              <p id="progtext1">Basic Life Support Drugs</p>
+              <Progressbar bgcolor="orange" progress='30' height={10} />
+              <p id="progtext">Main RX box</p>
+              <Progressbar bgcolor="red" progress='60' height={10} />
+              <p id="progtext">Long Distance RX box</p>
+              <Progressbar bgcolor="#99ff66" progress='50' height={10} />
+            </div>
+            <div id="prog">
+              <p id="progtext1">Counsumables </p>
+              <Progressbar bgcolor="orange" progress='30' height={10} />
+              <p id="progtext">Bio Medical devices-IOMT</p>
+              <Progressbar bgcolor="red" progress='60' height={10} />
+              <p id="progtext">Other Equipments</p>
+              <Progressbar bgcolor="#99ff66" progress='50' height={10} />
+            </div>
+
+          </Row>
           <p id="stock2">EP Assistance</p>
           <Col className='epas'>
             

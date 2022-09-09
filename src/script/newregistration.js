@@ -1,16 +1,39 @@
 import "../css/newregis.css";
-import React, { useState } from "react";
-
-import { useNavigate } from "react-router-dom";
+import React, { useState,UseNavigate } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Toggle from "react-styled-toggle";
 
 function App() {
-  const navigate = useNavigate();
+  const navigate = UseNavigate();
   const func = () => {
     var e = document.getElementById("selectopt");
+
+
+  const handleChangePhotoFileInput = (e) => {
+    const target = e.currentTarget;
+    const fileList = target.files;
+    const actualFile = target.files.item(0);
+
+    // validate file as image
+    if (!actualFile.type.startsWith("image/")) {
+      alert("File is not an image");
+      return;
+    }
+  };
+    const func = () => {
+        var e = document.getElementById("selectopt");
+        
+        var value = e.value;
+        var text = e.options[e.selectedIndex].text;
+        console.log(text)
+        if(text=="Log Out"){
+            let path = '/ainqa-med/';
+            navigate(path);
+        }
+    }
+    const confirm = () => { 
 
     var value = e.value;
     var text = e.options[e.selectedIndex].text;
@@ -58,9 +81,7 @@ function App() {
             <div class="container">
 
                 <div id="ot"></div>
-                <p id="tect">
-                    MRN
-                    ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+                <p id="tect"> MRN ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
                 </p>
                 <div id="dv">2435392</div>
                 <div>
@@ -72,7 +93,6 @@ function App() {
                     <p id="nam">Patient Name</p>
                     <input type="text" id="add" placeholder="Enter patient name"></input>
                 </div>
-
                 <p id="ag">Age</p>
                 <div id="age">
                     <select id="tum" defaultValue={"DEFAULT"}>
@@ -99,6 +119,16 @@ function App() {
                         <option value="years">99years</option>
                         <option value="years">100years</option>
                     </select>
+        <div id="box">
+        
+ <div id="human"></div>
+          <Col id="box2"><input type="file" onChange={(e)=> this.handleChangePhotoFileInput(e)} ></input></Col>
+         </div>
+         <div id="boxx">
+         <div id="location"></div>
+          <Col id="box3"><p id="loc" >+ Add More Images</p></Col>
+         </div>
+         <button className="button4" >Add Location</button>
 
                     <select id="value" defaultValue={"DEFAULT"}>
                         <option value="DEFAULT" hidden>
@@ -186,5 +216,6 @@ function App() {
         </div>
   
   );
+}
 }
 export default App;
