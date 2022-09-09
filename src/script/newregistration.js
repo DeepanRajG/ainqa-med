@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Toggle from 'react-styled-toggle';
+import uploadFileList from './upload'
+
 
 
 
@@ -16,18 +18,33 @@ function App() {
     const target = e.currentTarget;
     const fileList = target.files;
     const actualFile = target.files.item(0);
+    console.log("File sent")
 
     // validate file as image
     if (!actualFile.type.startsWith("image/")) {
       alert("File is not an image");
       return;
     }
-  //  uploadFileList([actualFile]).then((result) => {
+
+
+  uploadFileList([actualFile]).then((result) => {
+    console.log(result)
+    //console.log(result)
   //   //Api response will be recieved from result. store the fileid
-  //   });
+
+    });
 
     
   };
+
+
+
+
+
+
+
+
+
     const navigate = useNavigate();
     const func = () => {
         var e = document.getElementById("selectopt");
@@ -261,7 +278,7 @@ function App() {
         <div id="box">
         
  <div id="human"></div>
-          <Col id="box2"><input type="file" onChange={(e)=> this.handleChangePhotoFileInput(e)} ></input></Col>
+          <Col id="box2"><input type="file" onChange={handleChangePhotoFileInput} ></input></Col>
          </div>
          <div id="boxx">
          <div id="location"></div>
