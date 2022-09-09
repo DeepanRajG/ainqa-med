@@ -10,7 +10,7 @@
   }
   #quick{
     
-    margin-left: 50px;
+    margin-left: 100px;
     padding-top: 10px;
     padding-left: 50px;
     
@@ -163,10 +163,10 @@ margin-left: 50px;
 margin-top: 20px;
 }
 #text{
-    position: absolute;
+    
     width: 152px;
     height: 16px;
-    left: 60px;
+    left: 280px;
     top: 150px;
     font-family: 'Poppins';
     font-style: normal;
@@ -200,7 +200,7 @@ margin-top: 13px;
 position: absolute;
 width: 152px;
 height: 16px;
-left: 130px;
+left: 330px;
 top: 100px;
 font-family: 'Poppins';
 font-style: normal;
@@ -214,7 +214,7 @@ color: #001C3C;
 position: absolute;
 width: 93px;
 height: 16px;
-left: 300px;
+left: 500px;
 top: 100px;
 font-family: 'Poppins';
 font-style: normal;
@@ -228,7 +228,7 @@ color: #6A7888;
 position: absolute;
 width: 82px;
 height: 12px;
-left: 110px;
+left: 305px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -304,7 +304,7 @@ color: #001C3C;
     }
    #age{
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 105px;
 }
 #tum{
   width: 100px;
@@ -312,7 +312,7 @@ color: #001C3C;
     padding: 5px;
     border: 1px solid #6A7888;
     color: #6a7888;
-    margin-left: 1px;
+    margin-left: -7px;
 }
 #value{
   width: 100px;
@@ -370,7 +370,7 @@ padding-top: 15px;
  height: 40px;
   width: 120px;
   border-radius: 10px;
-  margin-left: 380px;
+  margin-left: 400px;
   color:#2a60bc;
   text-align:center;
   font-size: small;
@@ -386,7 +386,7 @@ padding-top: 15px;
     text-align:center;
     font-size: small;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 90px;
 
 }
 .button3{
@@ -398,8 +398,8 @@ padding-top: 15px;
     color:#ffff;
     text-align:center;
     font-size: small;
-    margin-top: 20px;
-    margin-left: 763px;
+    margin-top: -30px;
+    margin-left: 270px;
 }
 #finger1{
   background: url(./img/finger1.svg)no-repeat;
@@ -408,7 +408,7 @@ padding-top: 15px;
 
 height: 90px;
 
-margin-left: 1360px;
+margin-left: 975px;
 
 margin-top: -230px;
 }
@@ -420,7 +420,7 @@ margin-top: -230px;
 
   height: 90px;
 
-  margin-left: 1460px;
+  margin-left: 1070px;
 
 margin-top: -90px;
 
@@ -431,7 +431,7 @@ height:100px;
 width: 110px;
 border-radius: 8px;
 margin-right: 200px;
-margin-top: -600px;
+margin-top: -650px;
 flood-color: right;
 float: right;
 }
@@ -458,7 +458,7 @@ float: right;
   border-radius: 8px;
   margin-right: 130px;
   float: right;
-  margin-top: -440px;
+  margin-top: -500px;
   margin-left: 40px;
   
 
@@ -491,7 +491,7 @@ border-radius: 10px;
 color:#ffff;
 text-align:center;
  font-size: small;
- margin-top: -300px;
+ margin-top: -325px;
  margin-left: 50px;
  float: right;
  margin-right: 135px;
