@@ -6,7 +6,7 @@ import Forgot from "./script/Forgot";
 
 import Landing from "./script/Landing"
 import  Newregistration  from "./script/newregistration";
-
+import  Scenesizeup  from "./script/scenesizeup";
 import Reset from "./script/Reset"
 import Confirm from './script/Confirm'
 
@@ -22,6 +22,9 @@ const App = () => {
       <Route path="/ainqa-med/landing" element={<Landing/>}/>
 
       <Route path="/ainqa-med/Newregistration" element={<Newregistration/>}/>
+
+      <Route path="/ainqa-med/Scenesizeup" element={<Scenesizeup/>}/>
+
 
       <Route path="/ainqa-med/reset" element={<Reset/>}/>
       <Route path="/ainqa-med/confirm" element={<Confirm/>}/>
