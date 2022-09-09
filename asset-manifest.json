@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ainqa-med/static/css/main.80c7e68a.css",
-    "main.js": "/ainqa-med/static/js/main.e43401ad.js",
+    "main.css": "/ainqa-med/static/css/main.5f3ee566.css",
+    "main.js": "/ainqa-med/static/js/main.2d94986c.js",
     "static/js/787.1e143b45.chunk.js": "/ainqa-med/static/js/787.1e143b45.chunk.js",
     "static/media/finger.svg": "/ainqa-med/static/media/finger.a3dbbcb8f064061b7c64.svg",
     "static/media/finger1.svg": "/ainqa-med/static/media/finger1.a984a5861cbfcf94e4a9.svg",
@@ -32,12 +32,12 @@
     "static/media/search.svg": "/ainqa-med/static/media/search.ed14bcd2dba82f6808a3.svg",
     "static/media/notification.svg": "/ainqa-med/static/media/notification.f15b56a178d1cb153ccf.svg",
     "static/media/add.svg": "/ainqa-med/static/media/add.10796e663194ca84c34d.svg",
-    "main.80c7e68a.css.map": "/ainqa-med/static/css/main.80c7e68a.css.map",
-    "main.e43401ad.js.map": "/ainqa-med/static/js/main.e43401ad.js.map",
+    "main.5f3ee566.css.map": "/ainqa-med/static/css/main.5f3ee566.css.map",
+    "main.2d94986c.js.map": "/ainqa-med/static/js/main.2d94986c.js.map",
     "787.1e143b45.chunk.js.map": "/ainqa-med/static/js/787.1e143b45.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80c7e68a.css",
-    "static/js/main.e43401ad.js"
+    "static/css/main.5f3ee566.css",
+    "static/js/main.2d94986c.js"
   ]
 }
