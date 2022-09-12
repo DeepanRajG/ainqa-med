@@ -1,6 +1,7 @@
 import React from "react";
 import {  Routes, Route } from "react-router-dom";
 
+
 import Login from "./script/Login";
 import Forgot from "./script/Forgot";
 
@@ -36,6 +37,7 @@ const App = () => {
     </Routes>
   </div>
   );
+
 };
 
 export default App;
