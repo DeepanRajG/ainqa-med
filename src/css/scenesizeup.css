@@ -109,5 +109,43 @@ margin-left: 150px;
 margin-top: 10px;
 }
 #styp{
-  
+    color: #6A7888;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#svalue{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 30px; 
+    margin-top: -5px;  
+    border: 1px solid #6A7888;
+    color:#6A7888   
+}
+#sgen{
+    color: #6A7888;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#bo{
+    background: url(./img/bo.svg) no-repeat;
+    height:650px;
+    width:600px;
+    margin-left: 600px;
+    margin-top: -100px;
+}
+#bac{
+    background: url(./img/bac.svg) no-repeat;
+    height:650px;
+    width:600px;
+    margin-left: 1000px;
+    margin-top: -420px;
 }

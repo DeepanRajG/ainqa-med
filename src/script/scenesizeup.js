@@ -38,6 +38,27 @@ return (
 <div>  <p id="snam">Problems</p></div>
 <div id="container3">
     <div id="styp"><p>Type of Emergency</p></div>
+    <div>
+        <select id="svalue" defaultValue={"DEFAULT"}>
+      <option value="DEFAULT" hidden></option>
+        <option value="months">1months</option>
+        <option value="months">2months</option>
+        <option value="months">3months</option>
+        <option value="months">4months</option>
+        <option value="months">5months</option>
+        <option value="months">6months</option>
+        <option value="months">7months</option>
+        <option value="months">8months</option>
+        <option value="months">9months</option>
+        <option value="months">10months</option>
+        <option value="months">11months</option>
+     </select>
+      </div>
+      <div id="sgen"><p>Generalized&nbsp; :</p></div>
+     <div id="bo"></div>
+     <div id="bac"></div>
+
+
 </div>
 
 
